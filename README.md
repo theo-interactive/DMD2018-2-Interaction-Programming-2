@@ -52,9 +52,9 @@ MS 사의 소스코드 편집 툴입니다. [링크](https://code.visualstudio.c
 
 ## Slack
 
-업무용 메신저로 오픈 채널, 비공식 채널을 통해 팀 구성원들과 소통할 수 있는 협업 툴입니다. [링크](https://github.com/ryonghwon/DMD2017-2-Interaction-Programming-2)
+업무용 메신저로 오픈 채널, 비공식 채널을 통해 팀 구성원들과 소통할 수 있는 협업 툴입니다. [링크](https://slack.com/)
 
-인터랙션 프로그래밍 2 Slack 채널 : [https://dmd2017-2-ip2.slack.com/](https://dmd2017-2-ip2.slack.com/)
+인터랙션 프로그래밍 2 Slack 채널 : [https://dmd2018-2-ip2.slack.com/](https://dmd2018-2-ip2.slack.com/)
 
 <img src="https://a.slack-edge.com/b5ab6/marketing/img/downloads/screenshots/mac_screenshot@2x.png" width="600">
 
@@ -65,9 +65,9 @@ MS 사의 소스코드 편집 툴입니다. [링크](https://code.visualstudio.c
 
 ### GitHub
 
-개인 프로젝트, 팀원간의 프로젝트 등 소스관리를 할 수 있는 소스 저장소입니다. [링크](https://github.com/ryonghwon/DMD2017-2-Interaction-Programming-2/)
+개인 프로젝트, 팀원간의 프로젝트 등 소스관리를 할 수 있는 소스 저장소입니다. [링크](https://github.com/)
 
-인터랙션 프로그래밍 2 GitHub 소스저장소 : [https://github.com/ryonghwon/DMD2017-2-Interaction-Programming-2/](https://github.com/ryonghwon/DMD2017-2-Interaction-Programming-2/)
+인터랙션 프로그래밍 2 GitHub 소스저장소 : [https://github.com/ryonghwon/DMD2018-2-Interaction-Programming-2/](https://github.com/ryonghwon/DMD2018-2-Interaction-Programming-2/)
 
 
 ### SourceTree
