@@ -33,7 +33,7 @@ jQuery 로드(ready) 되는 함수 부분에
     <title>1WEEK</title>
 </head>
 <body>
-    <h1>1WEEK - 08/31</h1>
+    <h1>1WEEK - 08/30</h1>
 <script>
 (function($){
     $(document).ready(function(){
