@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 Week</title>
+</head>
+<body>
+    <h1>3 Week 9/13</h1>
+
+    <script type="text/javascript">
+
+
+        //Q1
+        var selectors = {
+            number : 2
+        }
+        
+
+        selectors.string = "";
+
+        selectors.dom = ["header"];
+
+        selectors.dom.push ("main", "footer");
+
+        delete selectors.string;
+
+        console.log(selectors);
+
+
+        //Q2
+        var cars = ["Hyundai", "Kia", "Samsung", "GM"];      
+
+        cars.reverse();
+
+        var result = "";
+        for(var i = 0; i < cars.length; i++)
+        {
+            result = result + cars[i];
+
+            if (i < cars.length-1)
+            {
+                result = result + ", "
+            }
+        }
+        console.log(result);
+
+        console.log(cars);
+
+
+        //Q3
+        //console.log(document);
+        for (var name  in document)
+        {
+            console.log (name);
+        }
+
+
+        //Q4
+        var orders = { name : ["소혜인"], coffee : ["아메리카노", "에스프레소", "카페라떼"] };
+
+        for (var i = 0; i < orders.coffee.length; i++)
+        {
+            console.log(orders.name[0] + " 님, 주문하신 " + orders.coffee[i] + " 1잔 나왔습니다.")
+        }
+
+
+        //Q5
+        var myName = ["안녕하세요.", "제 이름은", "소혜인", "입니다"]
+
+        var basic = {
+            born : "1998.04.27",
+            age : 21,
+            live : "수원",
+        }
+
+        var result = "";
+        for (var i = 0; i < myName.length; i++)
+        {
+            result = result + myName[i];
+            if(i < myName.length-1)
+            {
+                result = result + " "
+            }
+            else
+            {
+                result = result + "."
+            }
+        };
+        //console.log(result);
+
+        function Study(school, major)
+        {
+            return school + "에서 " + major + "을 전공하고있습니다."
+        };
+        
+        console.log(result + "\n저는 " + basic.born + "에 태어났고, 현재 " + basic.age + "살 입니다.\n" + Study("계원예술대학교", "디지털미디어디자인") + "\n수업 열심히 참여하겠습니다. 이번 학기도 잘부탁드립니다 XD");
+    </script>
+</body>
+</html>
