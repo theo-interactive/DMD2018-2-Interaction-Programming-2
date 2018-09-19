@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3WEEK</title>
+</head>
+<body>
+    <h1>3WEEK - 09/19</h1>
+    <h2>21861151 / 남현우</h2>
+    <script>
+        //Answer 1.
+        var selectors = {};
+        selectors.number = 2;
+        selectors.string = '';
+        selectors.dom = ['header'];
+        //console.log(selectors.dom);
+        selectors.dom.push('main','footer');
+        //console.log(selectors);
+        delete selectors.string;
+        console.log(selectors);
+
+        //Answer 2.
+        var cars = ['hyundai','kia','samsung','gm'];
+        cars.reverse();
+        //console.log(cars);
+        var result=''
+        for(var i=0; i<cars.length; i++){
+            result+=cars[i];
+            if(i<cars.length-1){
+                result+=', ';
+            }
+        }
+        console.log(result);
+
+        //Answer 3.
+        for(var name in document){
+            console.log(name);
+        }
+        //Answer 4.
+        var orders={name:['남현우'], coffee:['아메리카노', '에스프레소', '카페라떼']};
+        for(var i=0; i<orders.coffee.length; i++){
+            var name=orders.name;
+            var coffee=orders.coffee;
+            console.log(name+'님, '+'주문하신 '+coffee[i]+' '+'1잔 '+'나왔습니다.');
+        }
+        //Answer 5.
+        var orders={
+            greeting:['안녕하세요'],
+            name:['남현우'],
+            class:['a','b','c','d'],
+            number:['21861151'],
+            sushi:['연어','참치','광어'],
+        }
+        function introduce(){
+            console.log(orders.greeting+' '+orders.class[3]+'반 '+orders.number+' '+orders.name+'입니다.')
+            }
+        function favoritefood(){
+            for(var i=0;i<orders.sushi.length;i++){
+        
+            if(i>0){
+                console.log(orders.sushi[i]+'스시도 좋아합니다.');
+            }else{
+                console.log(orders.sushi[i]+'스시를 좋아합니다.');
+            }
+        }}
+        introduce();
+        favoritefood();
+
+    </script>
+</body>
+</html>
