@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 Week</title>
+</head>
+<body>
+<h1>3 Week 9/13</h1>
+<script type="text/javascript">
+    /*
+    ES6 에서만 사용가능함.
+    let, const.
+    */
+
+    /*
+    //변수.
+    var foo; //undefined.
+    console.log('1', foo);
+    foo = 1; //1.
+    console.log('2', foo);
+    foo = 'apple'; //apple.
+    console.log('3', foo);
+    //변수 선언시. 초기값을 넣어준다. (예외 사항도 있음)
+    //변수는 반복해서 선언이 가능하다.
+    var foo = 10;
+    console.log('4', foo);
+    */
+
+    /*
+    //상수.
+    let foo;
+    console.log('1', foo);
+    foo = 1;
+    console.log('2', foo);
+    foo = 2;
+    console.log('3', foo);
+    */
+    
+    /*
+    //상수선언.
+    //const 는 변경할 수 없다.
+    //참조형으로 사용함.
+    const foo = '변할 수 없음.';
+    console.log('1', foo);
+    //foo = '변경';
+    //console.log('2', foo);
+    const duration = 3000; //3 - 3000, 1 - 1000. 시간단위.
+    //설정하고자하는 참조값 사용시.
+    // var timer = setTimeout(function() {
+    //     console.log('3초 후');
+    // }, duration);
+    var i = 0;
+    var timer = setInterval(function() {
+        console.log('3초 마다', i);
+        i++;
+    }, duration);
+    */
+
+    /*
+    //객체 - Object.
+    var foo = {}; //객체 선언.
+    console.log('1', foo);
+
+    var foo = {}; //객체 선언방법 1.
+    var foo = new Object(); //객체 선언방법 2.
+
+    foo.name = 'rh'; //name 속성
+    foo.number = 100; //number 속성
+    console.log('2', foo);
+    foo.name = 'Kim Yong Won'; //name 속성의 값을 바꿈.
+    console.log('3', foo);
+    */
+
+    /*
+    //객체 선언시 속성값 입력.
+    var foo = {
+        name : 'rh',
+        number : 100,
+        color : '#ffffff'
+    };
+    console.log('1', foo);
+    foo.name = 'Kim Yong Won'; //속성값 변경 방법 1.
+    foo['name'] = 'Kim Yong Won'; //속성값 변경 방법 2.
+    console.log('2', foo);
+    
+    //데이터 타입 찾기.
+    console.log('3', typeof foo); //object.
+    console.log('4', typeof foo.name); //string.
+    console.log('5', typeof foo.number); //number.
+
+    delete foo.name; //foo 객체의 name 속성을 삭제.
+    console.log('6', foo, foo.name);
+    */
+
+    /*
+    //객체 : 배열.
+    var foo = new Array(); //배열 선언 방법 1.
+    //console.log('1', foo);
+    var foo = []; //배열 선언 방법 2.
+    //console.log('2', foo);
+    var foo = [0,1,2,3,4,5];
+    //console.log('3', foo);
+    //console.log('4', foo[4]); //배열값 찾기. 배열의 색인(index)은 0부터 시작함.
+    //반복문.
+    var sum = 0;
+    for(var i = 0; i < foo.length; i++){
+        sum = sum + foo[i];
+        console.log(i, sum);
+        //sum += foo[i];
+        //console.log(i, foo[i]);
+    }
+    console.log('결과', sum);
+    */
+    
+    /*
+    //객체 : 메서드 함수.
+    var _obj = {}; //객체 선언.
+    _obj.name = '김용원'; //_obj 객체 name 값. : string.
+    _obj.number = 100; //_obj 객체 number 값. : number.
+    _obj.sum = function(){ //메서드 함수. Method function.
+        var sum = 1 + 2;
+        console.log('2', sum);
+        return sum; //함수 실행 후 반환되는 값.
+    }; //_obj 객체 sum 함수. : function.
+    //console.log('1', _obj);
+    _obj.sum();
+    //console.log('3', _obj.sum()); //함수 호출 방법 ();
+
+    //함수 반환 return.
+    var sum = function() {
+        var result = 1 + 5;
+        return result; //밖으로 내보낸다.
+    }
+    sum();
+    var result = sum();
+    //console.log(sum());
+    */
+    
+    /*
+    //배열.
+    var cars = ['Audi', 'Hyundai', 'Kia', 'Volvo'];
+    console.log('1', cars);
+    cars.push('BMW');
+    console.log('2', cars);
+    //cars[4] = 'Benz';
+    cars[5] = 'Benz'; //배열의 순서를 잘 확인해야 함.
+    //cars.length - 6.
+    cars[cars.length] = 'Tesla';
+    console.log('3', cars);
+    cars.reverse();
+    console.log('4', cars);
+    var result = '';
+    for(var i = 0; i < cars.length; i++){
+        //console.log(cars[i]);
+        result += cars[i] + ', ';
+    }
+    console.log('5', result);
+    console.log('6', cars.join());
+    */
+
+    /*
+    //반복문. loop
+    //for, while, for...in, for...of forEach.
+    //for 문을 가장 많이 사용함.
+    //for(초기화; 반복조건; 반복시 실행될 코드(++, --)){
+        //반복문이 실행될 때 반복해서 이뤄지는 코드.
+    //}
+    for(var i = 0; i <= 5; i++){
+        console.log('1', i);
+    }
+    var i = 5;
+    for(i; i >= 0; i--){
+        console.log('2', i);
+    }
+    for(i = 0; i < 10; i++){
+        document.write('for 반복문 : ' + i + '<br/>');
+    }
+
+    //forEach - ES6
+    var cars = ['BMW', 'Audi', 'Benz']; //Array.
+    cars.forEach(function(car, index) { //배열의 데이터, 배열의 색인.
+        console.log(index + ' : ' + car);
+    });
+    cars.forEach(function(car) {
+        console.log(car);
+    });
+    
+    //for...in
+    var brands = { Hyundai : '현대', Kia : '기아', Samsung : '삼성' } //Object.
+    var brandsKo = [];
+    for(var name in brands){
+        // console.log(name); //객체의 속성명.
+        // console.log(brands[name]); //객체 속성의 값.
+        brandsKo.push(brands[name]); //brandsKo 배열에 brands 객체 속성값을 추가.
+    }
+    console.log('result', brandsKo); //brandsKo 배열 호출.
+    */
+    /*
+    //함수. function.
+    //함수 생성.
+    function hello(){
+        console.log('안녕하세요. 1');
+    }
+    hello(); //함수 호출.
+    //리터럴 함수.
+    var hello = function(){
+        console.log('안녕하세요. 2');
+    }
+    hello(); //함수 호출.
+    */
+    // var hello = function(name, msg){ //파라메터 값이 없을 경우, undefined로 들어옴.
+    var hello = function(name, msg = ''){ //파라메터 값을 옵션으로 설정할 경우, 초기값을 부여함.
+        return '안녕하세요. 제 이름은 ' + name + '입니다. ' + msg;
+        //return 반환. - 밖으로 값을 반환.
+    }
+    var result = hello('김용원');
+    //var result = hello('김용원', '반갑습니다.');
+    console.log(result);
+    result = hello('rh', '반갑습니다.');
+    console.log(result);
+    //함수는 재사용이 가능함.
+</script>
+</body>
+</html>
