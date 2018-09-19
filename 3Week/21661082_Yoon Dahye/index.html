@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 Week</title>
+</head>
+<body>
+	<h1>3WEEK - 09/19</h1>
+    <h2>21661082 / 윤다혜</h2>
+
+    <script type="text/javascript">
+
+    //Answer 1.
+    	var selectors = {};
+    	selectors.number = 2;
+    	selectors.string = ' ';
+    	//console.log ('1', selectors);
+
+    	selectors.dom = ['header'];
+    	//console.log ('2', selectors);
+
+    	selectors.dom.push ('main', 'footer');
+    	//console.log ('3', selectors);
+
+    	delete selectors.dom;
+    	//console.log ('4', selectors);
+
+    	console.log (selectors);
+
+
+
+    //Answer 2.
+        var cars = ['Hyundai', 'Kia', 'Samsung', 'GM'];
+        //console.log ('1', cars);
+
+        cars.reverse();
+        //console.log ('2', cars);
+
+        var result = '';
+
+        for(var i = 0; i < cars.length; i++) {
+            //console.log (cars[i]);
+            
+            result += cars[i];
+
+            // if (i < cars.length - 1) {
+            //     result += ', ';
+            // }else {
+            //     result += '';
+            // };
+        };
+
+        console.log (cars);
+
+
+
+    //Answer 3.
+        //console.log (document);
+
+        for (var name  in document) {
+            console.log (name);        
+            //console.log (document[name]); 
+        }
+
+
+
+    //Answer 4.
+        var orders = { name : ['윤다혜'], coffee : ['아메리카노', '에스프레소', '카페라떼'] };
+        //console.log (orders.coffee);
+        //console.log (orders.coffee[0]);
+
+        for(var i = 0; i < orders.coffee.length; i++) {
+            var name = orders.name;
+            var coffee = orders.coffee[i];
+
+            console.log (name + '님, 주문하신 ' + coffee + ' 1잔 나왔습니다~');
+        };
+
+
+
+    //Answer 5.
+        var words = { travel : ['여행', '짐', '비행기', '유럽', '계획'] };
+        words.day = 26;
+        words.etc = ['졸업', '기대'];
+        words.etc.push ('!');
+        //console.log (words);
+
+        var topic = function(a, b) {      
+            return a + '를 좋아하는 ' + b + '입니다';
+        };
+        var fir = topic (words.travel[0], '윤다혜');
+        //console.log (fir); 
+        var sec = words.travel[2] + '는 항상 무섭지만, ' + words.travel[4] + '을 세우고 ' + words.travel[1] + '을 챙기는 것 부터 신이 나요';
+        //console.log (sec);
+        var thr = words.etc[1] + '하던 ' + words.etc[0] + ' 후에는 ' + words['day'] + '일 동안 ' + words.travel[3] + ' ' + words.travel[0] + '을 떠날 ' +  words.travel[4] + '입니다';
+        //console.log (thr);
+        var me = [fir, sec, thr];
+        //console.log (me);
+
+        var intro = '자기소개 : ';
+
+        for(var i = 0; i < me.length; i++) {
+            intro += me[i];
+
+            if (i < me.length - 1) {
+                intro += '. ';
+            } else {
+                intro += words.etc[2];
+            };
+        };
+
+        console.log (intro);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>21561041 김소이 과제 제출</title>
+</head>
+<body>
+    <h3>교수님 과제 제출합니당 ~!</h3>
+    <script type="text/javascript">
+
+        /* 과제 1 */
+        var selector = {};
+        selector.num = 2;
+        selector.str = '';
+        selector.dom = ['header'];
+        selector.dom.push ('main', 'footer');
+        // selector.dom[selector.dom.length] = 'footer';
+        delete selector.str;
+        console.log (selector);
+
+        /* 과제 2 */
+        var cars = ['H', "K", "S", "G"];
+        cars.reverse();
+        for (var i in cars) {
+            console.log (cars[i]);
+        };
+        console.log (cars.join());
+
+        /* 과제 3 */
+        console.log (document);
+        for(var i in document){
+            // console.log(name);
+            console.log(document[i]);
+        }
+
+        /* 과제 4 */
+        var order = {
+            name : ['soi'],
+            coffee : ['아메리카노', '에스프레소', '카페라떼']
+        };
+        var i = 0;
+        for (i; i < order.coffee.length; i++) {
+            console.log (order.name + '님, 주문하신 ' + order.coffee[i] + ' 1잔 나왔습니다.');
+        };
+
+        /* 과제 5 */
+        var hiSoi = function (name, chng) {
+            return '안녕하세용. 교수님, , ' + name + '입니다.. ' + chng;
+        };
+        var itdcMs = hiSoi ('소이', '이번엔 멘탈 관리를 잘 해보겠습니당..!');
+        console.log (itdcMs);
+        itdcMs = hiSoi ('소이', '그리고 .. 자신감도 많이 키워오겠습니당..');
+        console.log (itdcMs);
+
+    </script>
+</body>
+</html>

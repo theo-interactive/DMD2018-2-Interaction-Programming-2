@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 Week HomeWork</title>
+</head>
+<body>
+    <h1>
+        3 Week HomeWork
+    </h1>
+    <script type="text/javascript">
+    // 과제 1.
+    var selectors = { //(1)
+        number : 2 //(2)
+    };
+    selectors.string = ''; //(3)
+    selectors.dom = ['header']; //(4),(5)
+    selectors.dom.push('main', 'footer');//(6)
+
+    delete selectors.string;//(7)
+    console.log(selectors);//(8)
+
+    // 과제 2.
+    var cars = ['Hyundai', 'Kia', 'Samsung', 'GM'];
+    cars.reverse();
+    var result = '';
+    for(var i = 0; i < cars.length; i++){
+        result += cars[i]+ " ";
+    }
+    console.log(result)
+
+    // 과제 3.
+    console.log(document);
+    console.log(typeof document);
+    for(var index in document){
+        console.log(index);
+        console.log(document[index]);    
+    }
+
+    // 과제 4.
+    var orders = { 
+        name : ['명진웅'],
+        coffee : ['아메리카노', '에스프레소', '카페라떼']
+        };
+    var result = function(name, coffee){
+        for(var i = 0; i < orders.coffee.length; i++){
+            console.log(name + '님, 주문하신 '+ coffee[i] +' 1잔 나왔습니다.')
+        }
+    }
+    result(orders.name,orders.coffee);
+
+    // 과제 5.
+    var hello = function(name, msg = ''){
+        return '안녕하세요. 제이름은' + name + '입니다. ' + msg;    }
+    var result = hello('명진웅','열심히 배우겠습니다.');
+    console.log(result);
+
+    var aboutObj = {
+        age : 28,
+        phone : '010-8789-2818',
+        email : 'ophayan@naver.com'
+    }
+
+    var _result = '';
+    for(var name in aboutObj){
+       _result += name + ' : ' + aboutObj[name] + ', ';
+       }
+    console.log('about // ',_result.slice(0,-2));
+
+    var favo = ['영상','이펙트','코딩'];
+    function _favo(i,j,k){
+        return '저는 요즘 ' + i +'과 '+j+' 그리고 '+k+'에 관심을 갖고 있습니다.'
+    }
+    var _result = _favo(favo[0],favo[1],favo[2]);
+    console.log(_result)
+    </script>
+</body>
+</html>
