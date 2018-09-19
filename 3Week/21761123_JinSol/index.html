@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 Week_과제</title>
+
+</head>
+<body>
+<h1>3 Week 9/13_과제</h1>
+<script type="text/javascript">
+    //<Q1>
+    var selectors = new Object();    //undefined. 선언은 했지만 아무것도 안들어가있는 상태.
+    console.log('Q1', selectors);
+    selectors.number = 2;
+    selectors.string = '';
+    selectors.dom = ['header'];   //스트링 넘버 디오엠이런것이 다 의미없는 프로퍼티.
+    selectors.dom.push('main', 'footer'); //push 맨 뒤로붙음.
+    //selectors.dom.push('footer');
+    delete selectors.string
+    console.log('Q1', selectors);
+
+    //<Q2>
+    //변수 선언
+    var cars = ['Hyundai', 'Kia', 'Samsung', 'GM'];
+    cars.reverse(); //반대로
+        console.log('Q2', cars);
+
+    //<Q3>
+    var i = 6;
+        for(i; i >= 0; i--){    //마이너스 값이 됬을 때 멈추는 것임.
+            console.log('Q3', i) 
+        }
+
+    //<Q4>
+    var orders = { name : ['진솔'], coffee : ['아메리카노', '에스프레소', '카페라떼'] };
+    for(var i = 0; i < orders.coffee.length; i++) {
+            var name = orders.name;
+            var coffee = orders.coffee[i];
+
+            console.log (name + '님, 주문하신 ' + coffee + ' 한 잔 나왔습니다.');
+        };
+
+    //<Q5> _자기소개
+        var me = {
+            age : 22,
+            university : '계원예술대학교',
+            major : '디지털 미디어 디자인',
+            dream : '뉴미디어 개발자'
+        }
+       
+
+        var hello = function(name, future){
+            return '안녕하세요. ' + future + '를 하고싶은' + name + '입니다. ';
+        }
+        var result = hello('진솔', '뉴미디어');
+
+  
+
+     
+
+        var Timer1 = setTimeout(function(){
+            console.log(result);
+        });
+
+        var Timer2 = setTimeout(function(){
+            console.log(me.university + '에서 ' + me.major + '전공이며, ' + me.dream + '가 꿈입니다.');
+        });
+
+        var Timer3 = setTimeout(function(){
+            console.log('열심히 하겠습니다.');
+        });
+    
+
+    
+</script>    
+</body>
+</html>
