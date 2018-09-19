@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3week 09/19</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //Quest 1.
+        var selectors = {};
+        //console.log("1",selectors);
+        
+        //selectors 라는 이름을 가진 객체를 생성합니다.
+        selectors.number = 2;
+        //console.log("2",selectors);
+        //number 프로퍼티를 갖고 있으며 그 값은 2 (number type) 입니다.
+        
+        selectors.string = '';
+        //console.log("3",selectors);
+        //string 프로퍼티를 추가하고 빈 문자열 ‘ ’ 을 할당합니다.
+        
+        selectors.dom = ["heeder"];
+        //selectors 객체에 dom 프로퍼티 배열을 추가하고 ‘header’ 문자열 원소를 할당합니다.
+        //console.log("4",selectors);
+        
+        selectors.dom.push("main", "footer");
+        //console.log("5",selectors);
+        //selectors 객체의 dom 배열 프로퍼티에 ‘main’, ‘footer’ 라는 문자열을 ‘header’ 원소의 뒤에 순서대로 추가합니다.
+        
+        delete selectors.string;
+        //selectors 객체의 string 프로퍼티를 삭제합니다.
+        
+        console.log(selectors);
+        //console.log 메서드를 이용해서 selectors 객체를 출력합니다.
+
+
+        //Quest 2.
+
+       
+        var cars = ['Hyundai', 'Kia', 'Samsung', 'GM'];
+        //console.log(cars);
+         //var cars = [‘Hyundai’, ‘Kia’, ‘Samsung’, ‘GM’]; 배열을 선언합니다.
+        
+         cars.reverse();
+        //cars 배열 문자열 원소를 역순으로 출력하는 반복문을 작성합니다.
+        
+        console.log(cars);
+        //console.log 메서드를 이용해서 cars 를 출력합니다.
+
+
+        //Quest 3.
+
+        for(var name in document){
+        console.log(name); //객체의 속성명
+        //console.log(brands[name]); //객체의 속성의 값
+        
+        }
+        //console.log('result', name); //brandsKo 배열 호출 
+        
+
+        //Quest 4.
+        var orders = { 
+            name : ['구준서'],
+            coffe : ['아메리카노', '에스프레소', '카페라떼' ]
+            };
+        
+            for(var i = 0; i < orders.coffe.length; i++){
+                console.log(orders.name + '님이 주문하신' + orders.coffe + '1잔' + ' 나왔습니다.');
+            }
+
+        
+        //Quest 5.
+
+
+        var hello = function(){
+            
+        }
+            hello(); //함수 호출 (안하면 콘솔도 안돼는듯)
+        //var hello = function(name, msg) 파라미터 값이 없을 경우 , undefined로 들어옴
+        //파라미터 값을 옵션으로 설정할 경우 초기값을 부여함
+        var hello = function(teacher ,name, msg = ''){
+            return '안녕하세요.' + teacher +  ' 교수님!' + name  + '입니다. ' +msg;
+            //return 반환 - 밖으로 값을 반환
+        }
+        var result = hello('김용원' ,' 구준서', '반갑습니다.');
+        console.log(result);
+        
+        var pr = ['수업', '열심히' , '듣겠습니다.!'];
+            
+        pr.push('슬랙 비밀번호를 잃어버렸습니다..');
+        
+        //pr.reverse();
+        
+        pr.splice(3);
+
+        // for(var i =0; i<pr.length; i++){
+        //     result +=pr[i] + ',';
+        // }
+        
+        console.log(pr);
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
