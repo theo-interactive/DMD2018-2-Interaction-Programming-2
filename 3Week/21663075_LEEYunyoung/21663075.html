@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>과제임당</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+
+    // Answer 1. 
+    // 모르겠습니다.....
+    /*
+        var selectors = {};
+        selectors.number = 2;
+        selectors.string = '';
+        selectors.dom = ['header']
+        selectors.push = 'main', 'footer';
+        console.log(selectors);
+        delete selectors.string;
+        console.log(selectors);
+    */
+
+
+
+
+    // Answer 2.
+    var cars = ['Hyundai','Kia','Samsung','GM']
+
+        var a = '';
+        var i = 3;
+
+        for(i; i >= 0; i--) {
+            // console.log(cars[i]);
+            a += cars[i] + ' ';
+        }
+
+        console.log(a);
+
+
+
+
+
+    // Answer 3.
+    // 이게 맞는걸까요?..
+    for(var number in document){
+            console.log(document[number]);
+        }
+
+
+ 
+
+
+
+    // Answer 4.
+    var orders = { name : ['이윤영'], coffee : ['아메리카노', '에스프레소', '카페라떼'] }; 
+    // console.log(orders.name + '님,' + ' 주문하신 ' + orders.coffee[0] + ' 1잔 나왔습니다.');
+    // console.log(orders.name + '님,' + ' 주문하신 ' + orders.coffee[1] + ' 1잔 나왔습니다.');
+    // console.log(orders.name + '님,' + ' 주문하신 ' + orders.coffee[2] + ' 1잔 나왔습니다.');
+    
+        for (var i=0; i<orders.coffee.length; i++ ){
+            console.log(orders.name + '님,' + ' 주문하신 ' + orders.coffee[i] + ' 1잔 나왔습니다.');
+        }
+
+
+
+
+
+    // Answer 5.
+  
+
+        var young = {}; 
+        young.name = '이윤영'; 
+        young.age = 23;
+
+        var food = ['피자', '햄버거','족발','닭발','곱창'];
+
+        console.log(food[0] + '를 좋아하는 저 ' + young.name + '은 올해로 ' + young.age + '살이 되었습니당, ' + food[3] + '도 엄청 좋아한답니다.');
+        
+
+        
+        var subject = function (sub1, sub2) {
+            return sub1 + ' 과제가 너무 많습니다..' + sub2 + '도 만만치 않습니다..' ;
+        };
+        var talk = subject ('프로젝트 스튜디오2', '인터랙션 프로그래밍2');
+        console.log (talk);
+
+
+        const duration = 2000;
+
+        var death = setTimeout(function(){
+            console.log('사실은 죽을 것 같습니다..');
+        }, duration);
+
+
+        var fighting = ['그래도 ', '열심히 ', '하겠습니다 ','화이팅..']
+        var f = '';
+        for(var i=0; i<fighting.length; i++) {
+            f += fighting[i];
+        }
+        console.log(f);
+    </script>
+    
+</body>
+</html>
