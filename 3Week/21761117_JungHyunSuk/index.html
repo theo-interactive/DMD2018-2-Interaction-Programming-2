@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quest</title>
+</head>
+<body>
+<h1>QUEST</h1>
+<script type=text/javascript>
+/*
+//Answer 1
+
+var selectors = {};
+selectors.number = 2;
+// console.log(selectors);
+selectors.string = '';
+// console.log(selectors);
+selectors.dom = ['header'];
+// console.log(selectors);
+selectors.dom.push('main', 'footer');
+// console.log(selectors);
+delete selectors.string;
+console.log(selectors);
+*/
+
+/*
+//Answer 2
+
+var cars = ['Hyundai', 'Kia', 'Samsung', 'GM'];
+// console.log(cars);
+cars.reverse();
+for(var i = 0; i < cars.length; i++){
+    var result = cars[i];
+    console.log(result);
+}
+*/
+
+/*
+//Answer 3
+for(var name in document){
+    console.log(name); 
+    console.log(document[name]);
+}
+*/
+
+/*
+//Answer 4
+
+var orders = {name: ['정현석'], coffee: ['아메리카노', '에스프레소', '카페라떼']};
+var coffee = '';
+// console.log(orders.name + '님, ' + '주문하신 ' + orders.coffee + ' 1잔 나왔습니다.');
+for(i = 0 ; i < orders.coffee.length; i++){
+    coffee = orders.coffee[i];
+    console.log(orders.name + '님, ' + '주문하신 ' + coffee + ' 1잔 나왔습니다.');
+}
+*/
+
+/*
+//Answer 5
+//파라미터에 정현석 취미 입력시 취미에 대한 내용 배열출력 아예처음에 안녕하세요 정현석입니다. 함수(퍼러매터) 값을 입력하세요 라고 뜬다.
+var introduceObj = {name: '정현석', age: 26};
+var questionList = ['hobby', 'school', 'ability'];
+console.log('안녕하세요? ' + '저는 ' + introduceObj.age + ' 살 ' + introduceObj.name + ' 입니다.');
+var showStringType = [];
+for(i = 0; i<questionList.length; i++){
+    showStringType += '\'' + questionList[i] + '\' '; 
+}
+console.log('ask(' + showStringType + ')를 입력하시면 해당 내용에 대한 정보를 출력합니다.')
+var ask = function(askwhat){
+    if(askwhat == 'hobby')
+    {
+        return '저의 취미는 전자오락 즐기기 입니다.';
+    }else if(askwhat == 'school')
+    {
+        return '제가 다니는 학교는 계원예대 입니다.';
+    }else if(askwhat == 'ability'){
+        return '저는 프로그래밍을 할 줄 압니다.';
+    }
+}
+*/
+</script>
+</body>
+</html>
