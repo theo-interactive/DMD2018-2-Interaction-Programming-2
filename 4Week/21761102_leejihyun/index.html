@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>4WEEK</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    a{color:#333}
+    .active{background-color:#f00}
+    .current{background-color:#0f0}
+    .zero{background-color:#0ff}
+    .inner{background-color:#f0f}
+    .role{background-color:#00f}
+    .emphasis{background-color:#ff0;color:#fff}
+    .bold{font-weight:600}
+    .hidden{display:none}
+</style>
+</head>
+<body>
+<h1>4WEEK - Quest</h1>
+<nav role="navigation">
+    <ul class="gnb">
+        <li><a id="menu-1" href="#menu-1">Menu 1</a></li>
+        <li class="prev"><a href="#" class="type-2">Menu <span>2</span></a></li>
+        <li class="next"><a href="#">Menu 3</a></li>
+        <li data-role="link"><a href="#">Menu <span>4</span></a></li>
+        <li><a href="#">Menu 5</a></li>
+        <li><a href="#">Menu 6</a></li>
+        <li><a href="#">Menu 7</a></li>
+        <li><a href="#">Menu 8</a></li>
+        <li><a href="#">Menu 9</a></li>
+        <li class="last">
+            <a href="#">Menu 10</a>
+            <ol>
+                <li><a href="#">Sub menu 10-1</a></li>
+                <li><a href="#">Sub menu <span>10-2</span></a></li>
+                <li class="sub-last"><a href="#">Sub menu 10-3</a></li>
+            </ol>
+        </li>
+    </ul>
+</nav>
+<section role="banner">
+    <div id="radio-list">
+        <div class="radio-item">
+            <input id="radio-1" type="radio" name="radio" value="1"/>
+            <label for="radio-1">Radio 1</label>
+        </div>
+        <div class="radio-item">
+            <input id="radio-2" type="radio" name="radio" value="2"/>
+            <label for="radio-2">Radio 2</label>
+        </div>
+        <div class="radio-item">
+            <input id="radio-3" type="radio" name="radio" value="3"/>
+            <label for="radio-3">Radio 3</label>
+        </div>
+    </div>
+</section>
+<nav role="navigation">
+    <ul class="gnb">
+        <li><a id="menu-1" href="#menu-1">Menu 1</a></li>
+        <li class="prev"><a href="#" class="type-2">Menu <span>2</span></a></li>
+        <li class="next"><a href="#">Menu 3</a></li>
+        <li data-role="link"><a href="#">Menu <span>4</span></a></li>
+        <li><a href="#">Menu 5</a></li>
+        <li><a href="#">Menu 6</a></li>
+        <li><a href="#">Menu 7</a></li>
+        <li><a href="#">Menu 8</a></li>
+        <li><a href="#">Menu 9</a></li>
+        <li class="last">
+            <a href="#">Menu 10</a>
+            <ol>
+                <li><a href="#">Sub menu 10-1</a></li>
+                <li><a href="#">Sub menu <span>10-2</span></a></li>
+                <li class="sub-last"><a href="#">Sub menu 10-3</a></li>
+            </ol>
+        </li>
+    </ul>
+</nav>
+<section role="banner">
+    <div id="radio-list">
+        <div class="radio-item">
+            <input id="radio-1" type="radio" name="radio" value="1"/>
+            <label for="radio-1">Radio 1</label>
+        </div>
+        <div class="radio-item">
+            <input id="radio-2" type="radio" name="radio" value="2"/>
+            <label for="radio-2">Radio 2</label>
+        </div>
+        <div class="radio-item">
+            <input id="radio-3" type="radio" name="radio" value="3"/>
+            <label for="radio-3">Radio 3</label>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+(function($){
+    $(document).ready(function(){
+/*
+1. 노드 찾기
+
+ - 태그 이름으로 노드 찾기 :  $("태그이름"),   $("선택자")
+
+ - 클래스 이름으로 노드 찾기 : $(".클래스이름")
+
+ - ID로 노드 찾기 : $("선택자")
+
+ - 속성으로 노드 찾기 : $("[속성이름=값]")
+
+ - 찾은 요소 개수 구하기 :  .size()    ,     .length
+
+ - 찾은 요소 n번째 접근하기 : .eq(index)    ,    .each(function(index){});
+
+ - 찾은 요소에서 특정요소만을 걸러내기 : .filter("선택자")
+
+ - 찾은 요소에서 특정 자식요소만 찾기 :  .find("선택자")
+
+2. 자식 노드 찾기 
+
+ - 전체 자식 노드 찾기
+    -- 텍스트 노드 포함 전체 자식 노드 찾기 :  $("선택자").contents()
+    -- 텍스트 노드 제외한 전체 자식 노드 찾기 : $("선택자").children("선택자")
+
+ - n번째 자식 노드 접근
+    -- $("선택자").children().eq(N)
+    -- $("선택자").children(":eq(N)")
+
+ - 첫번째 자식 노드 접근
+    -- $("선택자").children().first()
+    -- $("선택자").children(":first")
+    -- $("선택자").children().eq(0)
+    -- $("선택자").children(":eq(0)")
+
+ - 마지막 자식 노드 접근
+    -- $("선택자").children().last()
+    -- $("선택자").children(":last")
+ 
+3. 부모 노드 찾기
+ 
+ - 바로 위의 부모 : $("선택자").parent()
+
+ - 모든 부모 찾기
+    -- $("선택자").parents()  모든 부모
+ - 모든 부모 중 선택자에 해당하는 부모 찾기
+    -- $("선택자").parents("선택자")
+
+4. 형제 노드 찾기
+
+ - 이전 형제 노드 찾기
+    -- $("선택자").prev()
+    -- $("선택자").prevAll("선택자");
+
+ - 다음 형제 노드 찾기
+    -- $("선택자").next()
+    -- $("선택자").nextAll("선택자");
+
+5. 노드 생성,추가,이동,삭제
+
+ - 생성
+    -- $("노드")
+    -- $("선택자").html("<노드>...</노드>")
+    -- $("노드").clone()
+
+ - 추가
+    -- $기준노드.append($추가노드)
+    -- $추가노드.appendTo($기준노드)
+    -- $기준노드.prepend($추가노드)  
+    -- $추가노드.prependTo($기준노드)
+    -- $추가노드.insertBefore($기준노드)
+    -- $기준노드.before($추가노드)
+    -- $추가노드.insertAfter($기준노드)
+    -- $기준노드.after($추가노드)
+
+ - 삭제
+    -- $("선택자").remove()
+
+ - 이동
+    -- $기준노드.append($이동노드)  
+    -- $이동노드.appendTo($기준노드)
+    -- $이동노드.insertBefore($기준노드)
+    -- $기준노드.before($이동노드)
+    -- $이동노드.insertAfter($기준노드)   
+    -- $기준노드.after($이동노드)
+
+6. 텍스트 노드 다루기
+
+ - 텍스트 노드 생성 : $("텍스트")
+ 
+ - 텍스트 노드 추가 : $기준노드.append("텍스트")
+
+ - 텍스트 노드 변경 : $기준노드.text("새로운 텍스트")
+*/
+
+
+        /*
+        Quest 1.
+        li 태그들을 모두 선택하고 addClass 메서드를 이용해서 선택된 태크들에 모두 active 클래스를 추가합니다.
+        */
+
+        //Answer 1.   
+        $("li").addClass("active");  //addClass()사용법 : 대상체클래스.addClass('추가할 클래스 이름'); 
+
+
+
+        /*
+        Quest 2.
+        문서내의 a 태그들 중 type-2 클래스를 가진 노드를 선택하고, 해당 태그에 current 클래스를 추가합니다.
+        */
+
+        //Answer 2.
+        $(".type-2").addClass("current");
+
+
+
+        /*
+        Quest 3.
+        문서내의 li 태그들 중 0 index 에 위치한 노드를 선택하고, 해당 태그에 zero 클래스를 추가합니다.
+        */
+
+        //Answer 3.
+        $("li:eq(0)").addClass("zero"); // $("요소 선택:eq(index)") or $("요소 선택").eq(index)
+
+
+
+        /*
+        Quest 4.
+        문서내의 a 태그들 중 span 태그를 포함하고 있는 노드를 선택하고, 해당 태그에 inner 클래스를 추가합니다.
+        */
+
+        //Answer 4.
+        $("a:has('span')").addClass("inner"); // $("요소 선택:has(요소명)") or $("요소선택").has(요소명)
+
+
+
+        /*
+        Quest 5.
+        문서내의 li 태그들 중 data-role attribute 가 link 인 노드를 선택하고, 해당 태그에 role 클래스를 추가합니다.
+        */
+
+        //Answer 5.
+        $("li[data-role ='link']").addClass("role"); // $("요소 선택[속성=값]")
+
+
+
+        /*
+        Quest 6.
+        radio-list 아이디를 가지고 있는 노드의 자식 노드들의 길이를 구하고 console.log 메서드를 이용하여 출력합니다.
+        */
+      
+
+        //Answer 6.
+        $("#radio-list").children().length;
+        console.log($("#radio-list").children().length);
+        
+
+
+        /*
+        Quest 7.
+        type-2 클래스를 가지고 있는 노드의 부모 노드를 찾고, 그 index 값을 console.log 메서드를 이용하여 출력합니다.
+        */
+
+        //Answer 7.
+        $(".type-2").parent();
+        console.log($(".type-2").parent().index());
+
+
+
+        /*
+        Quest 8.
+        아이디가 radio-1 인 input radio 엘리먼트의 value 를 출력하는 여러 가지 방법을 찾아, console.log 메서드를 이용하여 출력합니다.
+        */
+
+        //Answer 8.
+        $("#radio-1").val(); // $("요소 선택").var();
+        console.log($("#radio-1").val());
+        
+
+
+        /*
+        Quest 9.
+        menu 7 텍스트를 포함하고 있는 a 엘리먼트를 선택할 수 있는 여러 가지 방법을 찾아, console.log 메서드를 이용하여 출력합니다.
+        */
+
+        //Answer 9.
+        console.log($('a:contains("menu 7")'));
+
+
+
+        /*
+        Quest 10.
+        아이디가 radio-2 가 아닌 input radio 엘리먼트의 부모 노드를 찾고, 자식 노드 label 엘리먼트에 emphasis 클래스를 추가합니다.
+        */
+
+        //Answer 10.
+        $("id").not("#radio-2").parent().children("label").addClass("emphasis");
+
+
+        
+        /*
+        Quest 11.
+        sub-last 클래스를 가진 li 엘리먼트를 찾고 last 클래스를 가진 부모 노드를 찾은 후, 1) 자식노드 a 엘리먼트에 emphasis 클래스 / 2) 모든 자식노드 a 엘리먼트들에 bold 클래스를 추가합니다.
+        */
+
+        //Answer 11.
+        $(".sub-last").parents(".last").children("a").addClass("emphasis");
+        $(".sub-last").parents(".last").find("a").addClass("bold");
+
+
+        /*
+        부모 노드 찾기: $('노드').parent();
+        바로 위에 있는 부모 노드를 찾습니다.
+        조상 노드 찾기: $('노드').parents();
+        해당 노드 상위의 모든 부모 노드를 찾습니다.
+        특정 조상 노드 찾기: $('노드').parents('선택자');
+        해당 노드 상위의 모든 부모 노드 중 선택자에 해당하는 부모를 찾습니다.
+
+        전체 자식 노드 찾기    :    $('노드').contents();    $('노드').children();
+        children()    vs    contents()
+        children() 은 특정 노드 하위에 위치한 모든 자식 노드 중 태그 노드만을 찾습니다.
+        반면, contents()는 특정 노드 하위에 위치한 텍스트 노드를 포함한 모든 자식 노드를 찾습니다.
+        children()    vs    find()
+        children() 은 특정 노드 `바로` 하위에 위치한 모든 자식 노드를 찾습니다.
+        반면, find() 는 `바로` 하위에 위치한 노드에서가 아닌 하위에 위치한 모든 노드를 찾습니다.
+        특정 자식 노드 찾기    :    $('노드').children('선택자');
+        노드 바로 하위에 있는 자식요소 중 특정 '선택자' 요소를 모두 찾습니다.
+        */
+        
+    });
+})(jQuery);
+</script>
+</body>
+</html>
