@@ -105,7 +105,9 @@
         */
 
         //Answer 1.
-        
+        var $list=$('li');
+        console.log($list);
+        $list.addClass('active');
 
         /*
         Quest 2.
@@ -113,7 +115,9 @@
         */
 
         //Answer 2.
-
+        var $a=$('a.type-2');
+        console.log($a);
+        $a.addClass('current');
 
         /*
         Quest 3.
@@ -121,7 +125,8 @@
         */
 
         //Answer 3.
-
+        console.log($list[0]);
+        $list.eq(0).addClass('zero');
 
         /*
         Quest 4.
@@ -129,7 +134,9 @@
         */
 
         //Answer 4.
-
+        var $a=$('a:has(span)')
+        console.log($a);
+        $a.addClass('inner');
 
         /*
         Quest 5.
@@ -137,7 +144,8 @@
         */
 
         //Answer 5.
-
+        var $linkExternal = $('a[href="data-role attribute"]')
+        $linkExternal.addClass('role');
 
         /*
         Quest 6.
@@ -145,7 +153,9 @@
         */
 
         //Answer 6.
-
+        var $radiolist = $("#radio-list");
+        //console.log($radiolist);
+        console.log($radiolist.children().length);
 
         /*
         Quest 7.
@@ -153,7 +163,9 @@
         */
 
         //Answer 7.
-
+        var $type2 = $(".type-2");
+        //console.log($type2);
+        console.log($type2.parent().index());
 
         /*
         Quest 8.
@@ -161,7 +173,9 @@
         */
 
         //Answer 8.
-
+        var $radio1 = $("input#radio-1");
+        console.log($radio1.val());
+        console.log($radio1.attr('value'));
 
         /*
         Quest 9.
@@ -169,7 +183,8 @@
         */
 
         //Answer 9.
-
+        var $menu7=$('a:contains(Menu 7)');
+        console.log($menu7);
 
         /*
         Quest 10.
@@ -177,7 +192,9 @@
         */
 
         //Answer 10.
-
+        var $notradio2=$('input:not(#radio-2)')
+        //console.log($notradio2);
+        $notradio2.parent().children('label').addClass('emphasis');
 
         /*
         Quest 11.
@@ -185,8 +202,10 @@
         */
 
         //Answer 11.
-
-        
+        $sublast=$('li.sub-last');
+        //console.log($sublast);
+        $sublast.parents('.last').children('a').addClass('emphasis');
+        $sublast.parents('.last').find('a').addClass('bold');
     });
 })(jQuery);
 </script>
