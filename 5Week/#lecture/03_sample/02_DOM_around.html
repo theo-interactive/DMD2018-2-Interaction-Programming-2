@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    .hidden{display:none}
+    div{border:2px solid #000}
+    div div{margin:5px;border:1px solid #f00}
+    p{margin:10px;background-color:#ff0}
+    .double{border-color:#00f}
+    .red{color:#f00}
+</style>
+</head>
+<body>
+<h1>Example 04 - DOM Around</h1>
+
+<!-- wrap, wrapAll, wrapInner -->
+<button>wrap / unwrap</button>
+<p>Hello</p>  
+<p>World</p> 
+
+<span>첫번째 문장입니다.</span> 
+
+<div class="double"><div></div></div>  
+<div class="double hidden"><div></div></div> 
+
+<span>두번째 문장입니다.</span>
+
+<script>
+(function($){
+    $(document).ready(function(){
+        // $('p').wrap('<div></div>');
+        // $('span').wrap('<div><div><p><em><b></b></em></p></div></div>');
+
+        //$('p').wrap(document.createElement('div'));
+
+        // $('p').wrap($('.double'));
+        //$('p').wrap($('.double')).parents('.double').removeClass('hidden');
+
+        // $( "p" ).wrapAll( "<div></div>" );
+        // $( "span" ).wrapAll( "<div><div><p><em><b></b></em></p></div></div>" );
+        // $('p').wrapAll(document.createElement('div'));
+        // $('p').wrapAll($('.double'));
+        
+        // $('p').wrapInner('<b></b>');
+
+        // $('body').wrapInner('<div><div><p><em><b></b></em></p></o></div></div>');
+        // $('p').wrapInner(document.createElement('b'));
+        // $('p').wrapInner($('<span class="red"></span>'));
+
+        /*
+        $p = $('p');
+        $('button').click(function(){
+            if($p.parent().is('div')){
+                $p.unwrap();
+            }else{
+                $p.wrap('<div></div>');
+            }
+        });
+        */
+    });
+})(jQuery);
+</script>
+</body>
+</html>
