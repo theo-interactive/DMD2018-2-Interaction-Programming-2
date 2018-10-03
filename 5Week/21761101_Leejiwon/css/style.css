@@ -1,0 +1,6 @@
+.banner{position:relative;width:200px;height:200px}
+.banner-wrap{/*overflow:hidden;*/position:relative;width:200px;height:200px}
+.banner-container{position:absolute;width:600px;height:200px}
+.banner-container::after{content:'';display:block;position:relative;clear:both}
+.banner-item{position:relative;float:left;width:200px;height:200px}
+.banner-item img{width:100%}
