@@ -50,14 +50,6 @@
         */
 
         //Answer 1.
-        var $myName = '<span id="myname">제 이름은 이예진입니다.</span>';    
-        $('#hello').prepend($myName); 
-        
-        /*prepend () 메소드는 선택된 요소의 시작 부분에 지정된 내용을 삽입합니다.
-        팁 : 선택한 요소의 끝에 내용을 삽입하려면 append () 메서드를 사용하십시오.
-
-        출처:W3Shcool*/
-
 
 
         /*
@@ -69,9 +61,7 @@
 
         var images = ['./img/banner/01.jpg', './img/banner/02.jpg', './img/banner/03.jpg'];
         //Answer 2.
-        for(var i = 0; i < images.length; i++){ 
-            $('.banner-container').append('<div class="banner-item"><img src="' + images[i] + '"/></div>'); 
-        } 
+
 
         /*
         Quest 3.
@@ -79,9 +69,6 @@
         */
 
         //Answer 3.
-        $('body').prepend($('p.move-top'));
-        $('p.move-top').addClass('move').text('위로 이동했습니다.');
-        
 
 
         /*
@@ -90,8 +77,7 @@
         */
 
         //Answer 4.
-        $('body').append($('p.move-bottom'));
-        $('p.move-bottom').addClass('move').text('아래로 이동했습니다.');
+
 
         /*
         Quest 5.
@@ -99,7 +85,7 @@
         */
 
         //Answer 5.
-        $('p.error').remove();
+
 
         /*
         Quest 6.
@@ -107,7 +93,6 @@
         */
 
         //Answer 6.
-        $('p.modify').text('수정되었습니다.');
 
 
         /*
@@ -116,8 +101,6 @@
         */
 
         //Answer 7.
-        $('p.modify').empty();
-        $('p.modify').remove();
 
 
         /*
@@ -126,10 +109,7 @@
         */
 
         //Answer 8.
-        var list = ['리스트2','리스트3','리스트4'];
-        for(var i = 0 ;i<list.length ; i++){
-            $('ul.list-1').append('<li>'+list[i]+'</li>');
-        }
+
 
         /*
         Quest 9.
@@ -137,10 +117,7 @@
         */
 
         //Answer 9.
-        var list2 = ['리스트1','리스트2','리스트3','리스트4'];
-        for(var i = 0 ;i<list2.length ; i++){
-            $('ul.list-2').prepend('<li>'+list2[i]+'</li>');
-        }
+
 
         /*
         Quest 10.
@@ -152,7 +129,7 @@
         힌트 - Boolean 또는 Class 를 조건문에 함께 이용합니다.
         */
 
-        //Answer 10. 모르겠습니당...
+        //Answer 10.
 
 
     });
