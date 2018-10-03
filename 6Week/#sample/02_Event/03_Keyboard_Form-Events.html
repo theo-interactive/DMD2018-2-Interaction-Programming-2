@@ -34,41 +34,6 @@
 <script>
 (function($){
     $(document).ready(function(){
-        $('#input-1').keypress(function(event){
-            console.log('Key press', event.key, event.which);
-        });
-        $('#input-1').keydown(function(event){
-            console.log('Key down', event.key, event.which);
-        });
-        $('#input-1').keyup(function(){
-            console.log('keyup', event.key, event.which);
-        });
-
-        $('#input-2').change(function(){
-            console.log('change', $(this).val());
-        });
-        $('#select-1').change(function(){
-            console.log('change', $(this).val());
-        });
-        $('#textarea-1').change(function(){
-            console.log('change', $(this).val());
-        });
-
-        $('#input-3').focus(function(){
-            console.log('focus');
-        }).blur(function(){
-            console.log('blur');
-        });
-        $('#input-4').focusin(function(){
-            console.log('focus in');
-        }).focusout(function(){
-            console.log('focus out');
-        });
-    
-        $('#form').submit(function(e){
-            e.preventDefault();
-            console.log('양식 제출');
-        });
     });
 })(jQuery);
 </script>

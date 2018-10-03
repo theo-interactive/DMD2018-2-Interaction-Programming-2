@@ -4,28 +4,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Example 05</title>
+<title>Example 04</title>
 <link rel="stylesheet" href="./css/reset.css"/>
 <script type="text/javascript" src="./js/libs/jquery.min.js"></script>
 <style>
-    .container{width:100%;height:200vh}
+    .hidden{display:none}
+    .red{color:#f00}
+    .blue{color:#00f}
 </style>
 </head>
 <body>
-<h1>Example 05 - Window Events</h1>
-<div class="container">
-<img src="./img/sleep-sound.jpg"/>
-</div>
+<h1>Example 02 - DOM Copying</h1>
+
+<!-- clone -->
+<p>Hello</p>
+
 <script>
 (function($){
     $(document).ready(function(){
-        $(window).resize(function(){
-            console.log('resize');
-            console.log($(window).width(), $(window).height());
-        }).scroll(function(){
-            console.log('scroll');
-            console.log($(window).scrollTop());
-        });
     });
 })(jQuery);
 </script>

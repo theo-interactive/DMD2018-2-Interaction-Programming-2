@@ -21,19 +21,6 @@
 <script>
 (function($){
     $(document).ready(function(){
-        var $box = $('.box');
-        $('.btn-play').on('click', function(){
-            $box.animate({'left' : '+=' + 100 + 'px'}, 1000);
-        });
-        $('.btn-stop').on('click', function(){
-            $box.stop();
-        });
-        $('.btn-force-play').on('click', function(){
-            $box.stop(true).animate({'left' : '+=' + 100 + 'px'}, 1000);
-        });
-        $('.btn-reset').on('click', function(){
-            $box.stop(true).css({'left' : 0});
-        });
     });
 })(jQuery);
 </script>

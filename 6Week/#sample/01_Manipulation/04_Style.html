@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    ul{display:flex;list-style:none}
+    li{flex:1;width:50px;height:50px}
+    .result{padding:20px;background-color:#666;color:#fff}
+    .box{width:100px;height:100px;padding:10px;background-color:#000;color:#fff}
+    .box-1{width:100px;height:50px;margin:25px;padding:25px;background-color:#666;border:20px solid #333}
+    .container{position:relative}
+    /* .box-2{position:absolute;width:200px;height:200px;top:20px;left:300px;background-color:#333} */
+    .box-2{position:relative;width:200px;height:200px;top:20px;left:300px;background-color:#333}
+    .box-3{margin:10px;padding:5px;border:2px solid #333}
+    .box-4{overflow:auto;position:relative;width:200px;height:100px;margin:10px;padding:10px;background-color:#333;border:2px solid #333}
+    .box-4 p{width:500px;height:500px;margin:10px;padding:5px;border:2px solid #666}
+</style>
+</head>
+<body>
+<h1>Example 04 - Style</h1>
+
+<!-- css -->
+<ul>
+    <li style="background-color:#f00">&nbsp;</li>
+    <li style="background-color:#0f0">&nbsp;</li>
+    <li style="background-color:#00f">&nbsp;</li>
+    <li style="background-color:#ff0">&nbsp;</li>
+    <li style="background-color:#0ff">&nbsp;</li>
+</ul>
+<div class="result"></div>
+
+<!-- width, height -->
+<div class="box">나는 작은 상자입니다.</div>
+
+<div class="box-1">&nbsp;</div>
+<div class="result"></div>
+
+
+<!-- position, offset -->
+ <div class="container"> 
+    <div class="box-2">&nbsp;</div>
+ </div> 
+<div class="result"></div>
+
+<!-- scroll -->
+<div class="box-3">Hello</div>
+
+<div class="box-4">
+    <p>Hello</p>
+</div>
+<button>스크롤 값 찾기</button>
+<div class="result"></div>
+
+<script>
+(function($){
+    $(document).ready(function(){
+    });
+})(jQuery);
+</script>
+</body>
+</html>
