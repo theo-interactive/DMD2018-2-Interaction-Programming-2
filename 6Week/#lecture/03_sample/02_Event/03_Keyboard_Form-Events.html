@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 05</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+</head>
+<body>
+<h1>Example 05 - Keyboard Events, Form Events</h1>
+<form id="form">
+    <fieldset>
+        <legend>키보드 입력</legend>
+        <label for="input-1">이름</label>
+        <input id="input-1" type="text" placeholder="이름을 입력해주세요."><br/>
+        <label for="input-2">아이디</label>
+        <input id="input-2" type="text" placeholder="아이디를 입력해주세요."><br/>
+        <select id="select-1">
+            <option value="option-1" selected>option 1</option>
+            <option value="option-2">option 2</option>
+            <option value="option-3">option 3</option>
+        </select><br/>
+        <textarea id="textarea-1" cols="30" rows="10"></textarea><br/>
+        <label for="input-3">비밀번호</label>
+        <input id="input-3" type="password" placeholder="비밀번호를 입력해주세요"><br/>
+        <label for="input-4">비밀번호 확인</label>
+        <input id="input-4" type="password" placeholder="비밀번호를 입력해주세요"><br/>
+        <input id="btn-submit" type="submit" value="입력">
+    </fieldset>
+</form>
+
+<script>
+(function($){
+    $(document).ready(function(){
+        $('#input-1').keypress(function(event){
+            console.log('Key press', event.key, event.which);
+        });
+        $('#input-1').keydown(function(event){
+            console.log('Key down', event.key, event.which);
+        });
+        $('#input-1').keyup(function(){
+            console.log('keyup', event.key, event.which);
+        });
+
+        $('#input-2').change(function(){
+            console.log('change', $(this).val());
+        });
+        $('#select-1').change(function(){
+            console.log('change', $(this).val());
+        });
+        $('#textarea-1').change(function(){
+            console.log('change', $(this).val());
+        });
+
+        $('#input-3').focus(function(){
+            console.log('focus');
+        }).blur(function(){
+            console.log('blur');
+        });
+        $('#input-4').focusin(function(){
+            console.log('focus in');
+        }).focusout(function(){
+            console.log('focus out');
+        });
+    
+        $('#form').submit(function(e){
+            e.preventDefault();
+            console.log('양식 제출');
+        });
+    });
+})(jQuery);
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 05</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    .box{position:absolute;width:100px;height:100px;background-color:#222}
+</style>
+</head>
+<body>
+<h1>Example 05 - Window Effects</h1>
+<button class="btn-play">Play</button>
+<button class="btn-stop">Stop</button>
+<button class="btn-force-play">Force Play</button>
+<button class="btn-reset">Reset</button>
+<div class="box">&nbsp;</div>
+<script>
+(function($){
+    $(document).ready(function(){
+        var $box = $('.box');
+        $('.btn-play').on('click', function(){
+            $box.animate({'left' : '+=' + 100 + 'px'}, 1000);
+        });
+        $('.btn-stop').on('click', function(){
+            $box.stop();
+        });
+        $('.btn-force-play').on('click', function(){
+            $box.stop(true).animate({'left' : '+=' + 100 + 'px'}, 1000);
+        });
+        $('.btn-reset').on('click', function(){
+            $box.stop(true).css({'left' : 0});
+        });
+    });
+})(jQuery);
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    .hidden{display:none}
+    .red{color:#f00}
+    .blue{color:#00f}
+</style>
+</head>
+<body>
+<h1>Example 02 - DOM Copying</h1>
+
+<!-- clone -->
+<p>Hello</p>
+
+<script>
+(function($){
+    $(document).ready(function(){
+        // var $pFirst = $('p:first');
+        // $pFirst.after($pFirst.clone().addClass('red'));
+        // $pFirst.before($pFirst.clone().addClass('blue'));
+    });
+})(jQuery);
+</script>
+</body>
+</html>

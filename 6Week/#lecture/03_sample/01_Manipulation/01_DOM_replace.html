@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    .hidden{display:none}
+    div{border:2px solid #000}
+    div div{margin:5px;border:1px solid #f00}
+    p{margin:10px;background-color:#ff0}
+    .double{border-color:#00f}
+    .red{color:#f00}
+    .blue{color:#00f}
+    button{display:block}
+</style>
+</head>
+<body>
+<h1>Example 01 - DOM Replace</h1>
+
+<!-- replaceAll -->
+<p>Hello</p>
+<p>World</p>
+
+<!-- replaceWith -->
+<button>첫번째 버튼입니다.</button>
+<button>두번째 버튼입니다.</button>
+<button>세번째 버튼입니다.</button>
+
+<div>Replaced</div>
+
+<script>
+(function($){
+    $(document).ready(function(){
+        // $('<b>헬로월드</b>').replaceAll('p');
+
+        /*
+        $('button').click(function(){
+            $(this).replaceWith('<div>' + $(this).text() + '</div>');
+        });
+        */
+
+        // $('p').replaceWith('<b>헬로월드</b>');
+
+        /*
+        $('p').click(function(){
+            $(this).replaceWith($('div'));
+        });
+        */
+    });
+})(jQuery);
+</script>
+</body>
+</html>

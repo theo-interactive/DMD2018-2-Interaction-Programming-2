@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 05</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+</head>
+<body>
+<h1>Example 05 - Window Events</h1>
+<img src="./img/sleep-sound.jpg"/>
+<script>
+(function($){
+    $(document).ready(function(){
+        console.log('load');
+    });
+    $.holdReady(true);
+    if(confirm('check')){
+        $.holdReady(false);
+    }
+})(jQuery);
+</script>
+</body>
+</html>
