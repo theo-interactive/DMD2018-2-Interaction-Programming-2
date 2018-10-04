@@ -34,6 +34,17 @@
 <script>
 (function($){
     $(document).ready(function(){
+        $('#input-1').on('keypress', function(e){
+            console.log('press', e);
+        });
+        //keypress - 키보드를 눌렀을 때.
+        $('#input-2').on('keydown', function(e){
+            console.log('down', e);
+        }).on('keyup', function(e){
+            console.log('up', e);
+        });
+        //keydown - 키보드를 누르기 시작할 때.
+        //keyup - 키보드에서 손을 뗄 때.
     });
 })(jQuery);
 </script>

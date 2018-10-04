@@ -19,6 +19,13 @@
 <script>
 (function($){
     $(document).ready(function(){
+        $(window).on('resize', function(){
+            //브라우저창을 리사이즈 했을 때.
+            console.log($(window).width(), $(window).height());
+        }).on('scroll', function(){
+            //window 를 스크롤 했을 때.
+            console.log($(window).scrollTop());
+        });
     });
 })(jQuery);
 </script>

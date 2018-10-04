@@ -75,7 +75,11 @@
         });
         //---- 위의 hover 이벤트와 동일.
         $('#menu-4').on('mouseenter mouseleave', function(e){
+            console.log(this);
+            //핸들러에서의 this - javascript 객체.
+            //jQuery 에서 사용하려면 this 를 $() 셀렉터.
             //*** - $(this)
+            console.log($(this));
             switch(e.type){
                 case 'mouseenter':
                     console.log('2-1');
