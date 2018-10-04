@@ -17,11 +17,29 @@
 <h1>Example 02 - DOM Copying</h1>
 
 <!-- clone -->
-<p>Hello</p>
+<p><b>Hello</b><span>world</span></p>
 
 <script>
 (function($){
     $(document).ready(function(){
+        //clone();
+        //요소의 내용 복제.
+        var $clone = $('p').clone();
+        // console.log($clone);
+        var $cloneB = $clone.children('b');
+        $cloneB.css({'background-color': '#000', 'color': '#fff'});
+        var $cloneSpan = $clone.find('span');
+        $cloneSpan.text(' ~~world');
+        $cloneSpan.css('color', '#f00');
+        
+        //append 가 실행 되지 않은 시점에서는 코드상에서만 요소가 가상으로 변경됨.
+        $clone.appendTo('body');
+
+        //$('body').append($clone);
+        //var cloneText = $clone.text();
+        //$clone.html(cloneText + ' clone~~~~~~~');
+        //$clone.appendTo('body');
+        // console.log($('p'), $('p').clone());
     });
 })(jQuery);
 </script>

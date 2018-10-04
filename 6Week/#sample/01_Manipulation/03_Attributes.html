@@ -46,6 +46,33 @@
 <script>
 (function($){
     $(document).ready(function(){
+        //attr();
+        //attr('찾는 속성명');
+        //속성값을 리턴.
+        //attr('찾는 속성명', '교체할 속성값');
+        //속성명을 찾은 후 해당 문자열 값으로 교체.
+        //prop();
+        //checked, disabled 등이 활성화 되어있는지 체크.
+        //val();
+        //value의 값을 리턴. - get.
+        //val('문자');
+        //'문자' 해당하는 문자열로 value 값을 교체. - set.
+        var $type = $('input');
+        for(var i = 0; i < $type.length; i++){
+            //console.log(i, $type.eq(i).attr('type'));
+            console.log(i, $type.eq(i).val());
+            $type.eq(i).attr('type', 'text');
+            $type.eq(i).val('value');
+        }
+        //var $checkbox1 = $('#checkbox-1');
+        //console.log($checkbox1.prop('checked'));
+        var $checkbox = $('input[type="checkbox"]');
+        for(var i = 0; i < $checkbox.length; i++){
+            // console.log(i, $checkbox.eq(i).prop('checked'));
+        }
+        //console.log(type); //checkbox
+
+
     });
 })(jQuery);
 </script>
