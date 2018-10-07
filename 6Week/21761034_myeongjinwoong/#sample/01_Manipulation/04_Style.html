@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    ul{display:flex;list-style:none}
+    li{flex:1;width:50px;height:50px}
+    .result{padding:20px;background-color:#666;color:#fff}
+    .box{width:100px;height:100px;padding:10px;background-color:#000;color:#fff}
+    .box-1{width:100px;height:50px;margin:25px;padding:25px;background-color:#666;border:20px solid #333}
+    .container{position:relative}
+    /* .box-2{position:absolute;width:200px;height:200px;top:20px;left:300px;background-color:#333} */
+    .box-2{position:relative;width:200px;height:200px;top:20px;left:300px;background-color:#333}
+    .box-3{margin:10px;padding:5px;border:2px solid #333}
+    .box-4{overflow:auto;position:relative;width:200px;height:100px;margin:10px;padding:10px;background-color:#333;border:2px solid #333}
+    .box-4 p{width:500px;height:500px;margin:10px;padding:5px;border:2px solid #666}
+</style>
+</head>
+<body>
+<h1>Example 04 - Style</h1>
+
+<!-- css -->
+<ul>
+    <li style="background-color:#f00">&nbsp;</li>
+    <li style="background-color:#0f0">&nbsp;</li>
+    <li style="background-color:#00f">&nbsp;</li>
+    <li style="background-color:#ff0">&nbsp;</li>
+    <li style="background-color:#0ff">&nbsp;</li>
+</ul>
+<div class="result"></div>
+
+<!-- width, height -->
+<div class="box">나는 작은 상자입니다.</div>
+
+<div class="box-1">&nbsp;</div>
+<div class="result"></div>
+
+
+<!-- position, offset -->
+ <div class="container"> 
+    <div class="box-2">&nbsp;</div>
+ </div> 
+<div class="result"></div>
+
+<!-- scroll -->
+<div class="box-3">Hello</div>
+
+<div class="box-4">
+    <p>Hello</p>
+</div>
+<button>스크롤 값 찾기</button>
+<div class="result"></div>
+
+<script>
+(function($){
+    $(document).ready(function(){
+//css();
+    //css('스타일 속성');
+    //해당 요소의 스타일 값을 리턴.
+    //css('스타일 속성', '변경할 속성값');
+    //해당 요소의 스타일(1개)를 변경.
+        
+        /*
+        css({
+            '스타일 속성1' : '변경할 속성1의 값',
+            '스타일 속성2' : '변경할 속성2의 값'
+        })
+        */
+
+//다중 스타일 적용시 object 형식으로 css 스타일을 기입하여 변경.
+        var $li = $('ul li');
+        for(var i = 0; i < $li.length; i++){
+            //console.log(i, $li.eq(i).css('background-color')); 
+            // if(i === 0 || i === $li.length -1){
+            //     $li.eq(i).css('background', '#000');
+            // }    
+            // if(i === 2){
+            //     $li.eq(i).css('background', '#fff');
+            // }
+            //$li.eq(i).css('background', '#000');     
+            $li.eq(i)
+            .text('hello')
+            .css({
+                    'background-color':'#000', 
+                    'color':'#fff',
+                    'padding-top':'30px',
+                    'padding-left':'5px',
+                    'text-transform':'uppercase',
+                    'text-align':'center'
+                });
+        }
+        //console.log($('ul li').css('background-color'));
+
+//width, height. - 가로 폭, 세로 높이 값 리턴.(px)
+    //width(), innerWidth(), outerWitdh(), outerWidth(true);
+    //height(), innerHeight(), outerHeight(), outerHeight(true);
+        
+        // var $box = $('.box');
+        var $box = $('.box');
+        // console.log($box.width(), $box.innerWidth(), $box.outerWidth(), $box.outerWidth(true));
+        // console.log($box.height(), $box.innerHeight(), $box.outerHeight(), $box.outerHeight(true));
+        
+
+        var $box1 = $('.box-1');
+        // console.log($box1.width(), $box1.innerWidth(), $box1.outerWidth(), $box1.outerWidth(true));
+        // console.log($box1.height(), $box1.innerHeight(), $box1.outerHeight(), $box1.outerHeight(true));
+        
+
+    /*  
+        width() height()
+        css 상의 width, height 값.
+
+        innerWidth() innerHeight()
+        css 상의 width + padding, height + padding 값.
+        
+        outerWitdh() outerHeight()
+        css 상의 width + padding + border, height + padding + border 값.
+
+        outerWidth(true) outerHeigt(true) 
+        css 상의 width + margin + padding + border 값.
+        css 상의 height + margin + padding + border 값.
+    */
+//width, height 변경.
+
+        var _width = 300, _height = 400;
+
+        $box1.width(_width).height(_height);
+        // $box1.width('300px').height('400px');
+        $box1.innerWidth(_width).innerHeight(_height);
+        $box1.css('padding','50px').innerWidth(_width).innerHeight(_height);
+        // console.log($box1.width(), $box1.height());
+
+        $box1.outerWidth(_width).outerHeight(_height);
+        $box1.css({'border-width':'30px','border-color':'#f00'}).outerWidth(_width).outerHeight(_height);
+        $box1.css('margin','100px').outerWidth(_width,true).outerHeight(_height,true);
+        // $('.box')
+        // $('.box-1')
+        
+// position, offset.
+    //position() : 해당 요소의 위치 값. css에서 지정된 top, left 값.
+    //{'top':'top의 값', 'left':'left의 값'}형식으로 object return
+
+    //offset(): 해당 요소의 스크롤 죄표. 부모중에 스크롤 요소를 기준으로.
+    //{'top':'y의 값', 'left':'x의 값'}형식으로 object return
+
+        var $box2 = $('.box-2');
+        // console.log($box2.position());
+        // console.log($box2.position().top);
+        // console.log($box2.position()['top']);
+        // console.log($box2.position().left);
+        // console.log($box2.position()['left']);
+        $box2.css({'top':300, 'left':400}); 
+        // console.log($box2.offset());
+
+// scroll.
+        var $box3 = $('.box-3');
+        var $box4 = $('.box-4');
+        console.log($box3.scrollTop(), $box3.scrollLeft());
+        console.log($box4.scrollTop(), $box4.scrollLeft());
+
+        var $window = $(window);
+        console.log($window.scrollTop());
+        $(window).on('scroll',function(){
+            
+        })
+    });
+})(jQuery);
+</script>
+</body>
+</html>
