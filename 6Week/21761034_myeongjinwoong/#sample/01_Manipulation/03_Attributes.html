@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Example 04</title>
+<link rel="stylesheet" href="./css/reset.css"/>
+<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+<style>
+    .hidden{display:none}
+    button{display:block}
+    input{display:block}
+</style>
+</head>
+<body>
+<h1>Example 03 - General Attribute</h1>
+
+<!-- attr -->
+<input id="checkbox-1" type="checkbox" checked="checked">
+<label for="checkbox-1">체크박스 클릭</label>
+<p></p>
+
+<p>안녕하세요. 제 이름은 <em title="Kim Yongwon">김용원</em>입니다.</p>
+<p>영어이름은 <span></span>입니다.</p>
+
+<img title="sleep-sound.jpg"/>  
+
+<!-- prop -->
+<input type="checkbox" checked="checked">
+<input type="checkbox">
+
+<input type="text" placeholder="이름을 입력해주세요."> 
+
+<!-- removeAttr -->
+<button>제목 변경</button>
+<input type="text" title="Hello Wolrd">
+
+<!-- removeProp -->
+<p></p>
+
+<!-- val -->
+<input type="text" value="텍스트 입력">
+<p></p>
+
+<script>
+(function($){
+    $(document).ready(function(){
+        //attr();
+        //attr('찾는 속성명);
+        //속성값을 리턴.
+        //attr('찾는 속성명', '교체할 속성값');
+
+        //prop();
+        //checked, disabled 등이 활성화 되어있는지 체크.
+
+        //val();
+        //value 의 값을 받아 리턴. - get.
+        //val('문자'));
+        //'문자' 해당하는 문자열로 value 값을 교체. -set.
+
+        //var type = $('#checkbox-1').attr('type');
+        var $type = $('input');
+        for(var i = 0; i < $type.length; i++){
+            //console.log(i, $type.eq(i).attr('type'));   
+            console.log(i, $type.eq(i).val());
+            $type.eq(i).attr('type', 'text');
+            $type.eq(i).val('value');
+                    
+        }
+        //var $checkbox1 = $('#checkbox-1');
+        var $checkbox = $('input[type="checkbox"]');
+        for(var i = 0; i < $checkbox.length; i++){
+           // console.log($checkbox.eq(i).prop('checked'));          
+        }
+        
+        //console.log($checkbox1.prop('checked'));
+        
+
+
+        //console.log(type); //checkbox
+        
+    });
+})(jQuery);
+</script>
+</body>
+</html>
