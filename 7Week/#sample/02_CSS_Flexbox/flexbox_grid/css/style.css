@@ -57,3 +57,61 @@ fieldset{border:none}
 
 /* ---- LAYOUT ---- */
 body{padding-top:100px;font-family:'SF Pro Display',Apple SD Gothic Neo,Malgun Gothic,Dotum,Helvetica,Helvetica Neue,Arial,Verdana,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;word-spacing:-1px;-webkit-text-size-adjust:none}
+
+#grid{
+	/* max-width:1280px; */
+	max-width:92%;
+	margin-right:auto;
+	margin-left:auto
+}
+.grid{
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	/* flex-direction:row-reverse; */
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.grid-item{
+	padding-right:30px;
+	padding-bottom:80px;
+	padding-left:30px;
+	/* align-self:flex-start */
+	align-self:flex-end
+	/* align-self:center */
+}
+.grid-item .figure{
+	/* width:240px; */
+	padding-bottom:20px
+}
+.grid-item .figure img{
+	display:inline-block;
+	width:100%;
+	vertical-align:top
+}
+.grid-item .caption{
+	padding-bottom:30px;
+	color:#888;
+	font-size:12px;
+	line-height:18px
+}
+@media screen and (max-width: 767px) {
+	.grid-item .figure{
+		width:300px
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.grid-item .figure{
+		width:280px
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.grid-item .figure{
+		width:240px
+	}
+}
+@media screen and (min-width: 1280px) {
+	.grid-item .figure{
+		width:200px
+	}
+}
