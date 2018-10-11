@@ -12,7 +12,7 @@
 </style>
 </head>
 <body>
-<h1>Example 01 - Window Effects</h1>
+<h1>Example 01 - jQuery Effects</h1>
 <button class="btn-play">Play</button>
 <button class="btn-stop">Stop</button>
 <button class="btn-force-play">Force Play</button>
@@ -21,6 +21,91 @@
 <script>
 (function($){
     $(document).ready(function(){
+        //jQuery Effects - animation.
+        //stop(), animate()
+        var $box = $('.box');
+        var $button = $('button');
+        var _boxTop = 100, _boxLeft = 0
+        $box.css({'top': _boxTop + 'px', 'left': _boxLeft + 'px'});
+        $button.on('click', function(e){
+            e.preventDefault();
+            var $el = $(this); // == $(e.target);
+            if($el.is('.btn-play')){ //.is('셀렉터 문자열') : 요소가 해당 조건을 가지고 있는지 체크.
+                // console.log('play');
+                $box.animate({'top': '+=100px', 'left': '+=100px'}, 1000);
+                //클릭이 될 때마다 1초씩, 애니메이션 대기.
+            }else if($el.is('.btn-stop')){
+                // console.log('stop');
+                $box.stop(); //애니메이션 될 때, 정지. 1번만 정지.
+                $box.stop(true); //모든 애니메이션(대기 포함) 정지.
+            }else if($el.is('.btn-force-play')){
+                // console.log('force play');
+                //$box.stop(true).animate({'top': '+=100px', 'left': '+=100px'}, 500);
+                $box.stop(true).animate({'top': '500px', 'left': '500px'}, 500);
+            }else if($el.is('.btn-reset')){
+                // console.log('reset');
+                $box.stop(true).css({'top': _boxTop + 'px', 'left': _boxLeft + 'px'});
+            }
+        });
+
+        // $('.btn-play').on('click', function(e){
+        // });
+        // $('.btn-stop').on('click', function(e){
+        // });
+        // $('.btn-force-play').on('click', function(e){
+        // });
+        // $('.btn-reset').on('click', function(e){
+        // });
+
+        // setTimeout(function(){
+        //     $box.animate({
+        //         'top': '500px',
+        //         'left': '500px',
+        //     }, 500);
+        // }, 1000);
+
+        // setInterval(function(){
+        //     $box.animate({
+        //         'top': '+=50px',
+        //         'left': '+=50px'
+        //     }, 500);
+        // }, 1500);
+
+        //event 속성
+        /*
+        // $('.btn-play').on('click', function(event){
+        // $('.btn-play').on('click', function(evt){
+        $('.btn-play').on('click', function(e){
+            //handler 에는 event 라는 속성이 들어온다.(객체 요소의 이벤트가 발생될 때)
+            e.preventDefault(); //<button> 요소가 가지고 있는 기본 속성이 발생하지 않도록 방지.
+            e.stopPropagation(); //이벤트의 버블링이 발생하지 않도록 방지.
+            //2뎁스 메뉴.
+            // <a> <ul.sub-menu> <li> <a></a> </li> </ul> </a>
+            //a 요소 안에 a 요소가 있는 경우.
+            //하위에 있는 a 요소를 클릭하면 부모 a 요소까지 영향이 가게 되는데. - 방지.
+
+            //console.log(e);
+            // console.log(e.target); //클릭이 실행된 요소.
+            // console.log($(e.target)); //클릭이 실행된 요소를 셀렉터.
+            // console.log(this);
+            // console.log($(this));
+            $(e.target).css({
+                'background-color': '#000',
+                'color': '#fff',
+                'border': 'none',
+                'padding': '10px',
+                'margin': 0
+            });
+        });
+        // $('body').on('mousemove', function(e){
+        //     console.log(e.pageX, e.pageY);
+        // });
+        $('.box').on('mousemove', function(e){
+            console.log(e.pageX, e.pageY);
+            //event.pageX, event.pageY
+            //웹페이지의 왼쪽 상단을 기준으로 현재 마우스의 좌표.
+        });
+        */
     });
 })(jQuery);
 </script>
