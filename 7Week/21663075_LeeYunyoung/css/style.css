@@ -1,0 +1,38 @@
+#header {
+    height: 90px;
+   
+}
+
+#header .logo {
+    width:400px;
+    height: 100%;
+    margin: 0 auto
+}
+
+#header .logo img{
+    width: 100%;
+}
+
+#content {
+    max-width: 100%;
+}
+
+.grid{
+    display: flex;
+    display:-webkit-flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+}
+
+.grid .figure{
+    width: 280px; 
+    margin-right: 10px;
+   
+}
+
+.grid .figure img {
+    display:inline-block;
+    width: 100%;
+}
+
