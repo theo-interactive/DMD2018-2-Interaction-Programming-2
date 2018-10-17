@@ -1,0 +1,8 @@
+body{padding-top:50px;}
+#wrap{max-width: 90%; margin-left: auto; margin-right:auto;}
+h1{text-align: center; padding-bottom: 40px; font-size: 40px; font-weight: 300;}
+
+/* GALLERY */
+#gallery{display: flex; flex-wrap: wrap; justify-content: center; }
+.gallery-item{display: flex; display: -webkit-flex;padding-right: 15px; padding-bottom: 20px;}
+
