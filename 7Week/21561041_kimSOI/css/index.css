@@ -1,0 +1,73 @@
+html, body {
+    width: 750px; height: 1335px;
+}
+
+#wrap {
+    width: 750px; height: 1335px;
+    overflow: auto;
+}
+
+#top {
+    width: 750px; height: 170px;
+    background-color: plum;
+    /*  position: fixed; 포지션 픽스드는 상위 요소 위치값 기준이 아닌 브라우저 위치 기준인가..? */
+}
+
+#statu {
+    width: 750px; height: 50px;
+    background-color: black;
+}
+
+#search {
+    width: 750px; height: 120px;
+    background-color: darkgoldenrod;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+#search>div {
+    margin-top: 25px;
+}
+
+.box {
+    width: 70px; height: 70px;
+    background-color: blanchedalmond;
+}
+
+.box:nth-child(2) {
+    width: 450px; height: 70px;
+}
+
+#content {
+    width: 750px; height: 1045px; /* 컨텐츠에 맞춰 숫자 수정 */
+    overflow: auto;
+}
+
+#try {
+    height: 5555px;
+}
+
+#bottom {
+    width: 750px; height: 120px;
+    background-color: plum;
+}
+
+#btn {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn>div {
+    width: 90px; height: 90px; background-color: blanchedalmond;
+    margin-top: 15px;
+}
