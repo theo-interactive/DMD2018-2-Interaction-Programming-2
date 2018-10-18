@@ -77,9 +77,10 @@
         var $itemImg = $item.find('img');
         var $paddleNav = $('.paddle-nav');
         var $arrow = $paddleNav.find('.arrow');
-        var $prev = $paddleNav.find('.arrow.prev')
+        var $prev = $paddleNav.find('.arrow.prev');
         var $next = $paddleNav.find('.arrow.next');
         var $dotNav = $('.dot-nav');
+        var $dotEl = $dotNav.find('span');
         
         //setting.
         var _id = 0;
@@ -88,48 +89,39 @@
         //size.
         var _bannerW = $banner.width();
         var _bannerH = $banner.height();
-        $wrap.width(_bannerW).height(_bannerH);
-        $container.width(_bannerW * _itemMax).height('100%');
-        $item.width(_bannerW).height('100%');
-        $itemImg.width('100%');
-        
+
         //func.
-        var slideLeft = function(){
-            _id--;
+        var resize = function() {
+            $wrap.width(_bannerW).height(_bannerH);
+            $container.width(_bannerW * _itemMax).height('100%');
+            $item.width(_bannerW).height('100%');
+            $itemImg.width('100%');
+        }
+        var slide = function() {
             $container.stop(true).animate({'left': _bannerW * _id * -1}, 500, function(){
                 dotSelect();
                 paddleCheck();
             });
         }
-        var slideRight = function() {
-            _id++;
-            $container.stop(true).animate({'left': _bannerW * _id * -1}, 500, function(){
-                dotSelect();
-                paddleCheck();
-            });
+        var dotSelect = function() {
+            $dotEl.removeClass('selected');
+            $dotEl.eq(_id).addClass('selected');
         }
-        $prev.on('click', function(e){
-            e.preventDefault();
-            slideLeft();
-        });
-        $next.on('click', function(e){
-            e.preventDefault();
-            slideRight();
-        });
-        var dotSelect = function(){
-            $('span.selected').removeClass('selected');
-            $('span').eq(_id).addClass('selected');
-        }
-        var paddleCheck = function(){
+        var paddleCheck = function() {
             if(_id === 0) {
-                $prev.addClass('disabled'); //.arrow.prev
+                $prev.addClass('disabled');
             } else if(_id === _itemMax - 1) {
-                $next.addClass('disabled'); //.arrow.next
+                $next.addClass('disabled');
             }else{
-                $paddleNav.find('.arrow').removeClass('disabled'); //.arrow
+                $arrow.removeClass('disabled');
             }
         }
-        paddleCheck();
+        
+        $arrow.on('click', function(e) {
+            e.preventDefault();
+            // slide();
+        });
+        // paddleCheck();
     });
 })(jQuery);
 </script>
