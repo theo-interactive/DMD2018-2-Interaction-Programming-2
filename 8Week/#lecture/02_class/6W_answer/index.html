@@ -70,12 +70,15 @@
 (function($){
     $(document).ready(function(){
 
+        var $banner = $('.banner');
+
         /*
         Quest 1.
-        .banner 노드의 CSS 속성 중 overflow 를 hidden 으로 변경합니다.
+        .banner 노드의 CSS 속성 중 overflow 를 hidden 으로 변경합니다. ***
         */
 
         //Answer 1.
+        $banner.css({'overflow': 'hidden'});
 
 
         /*
@@ -84,6 +87,9 @@
         */
 
         //Answer 2.
+        var _bannerW = $banner.width(), _bannerH = $banner.height();
+        var $wrap = $('.banner-wrap');
+        $wrap.width(_bannerW).height(_bannerH);
 
 
         /*
@@ -92,6 +98,12 @@
         */
 
         //Answer 3.
+        var $container = $('.banner-container');
+        var $item = $('.banner-item');
+        var _itemMax = $item.length; // 4.
+        //1000 * 4 = 4000.
+        //$container.width($wrap.width() * _itemMax).height('100%');
+        $container.width(_bannerW * _itemMax).height('100%');
 
 
         /*
@@ -100,6 +112,7 @@
         */
 
         //Answer 4.
+        $item.css({'float': 'left'}).width(_bannerW).height('100%');
 
 
         /*
@@ -108,6 +121,8 @@
         */
 
         //Answer 5.
+        var $itemImg = $item.find('img');
+        $itemImg.width('100%');
 
 
         /*
@@ -116,6 +131,8 @@
         */
 
         //Answer 6.
+        var $paddleNav = $('.paddle-nav');
+        $paddleNav.find('.arrow.prev').css({'left': 18 + 'px'});
 
 
         /*
@@ -124,7 +141,7 @@
         */
 
         //Answer 7.
-
+        $paddleNav.find('.arrow.next').css({'right': 18 + 'px'});
 
         /*
         Quest 8.
@@ -132,6 +149,8 @@
         */
 
         //Answer 8.
+        var $dotNav = $('.dot-nav');
+        $dotNav.css({'bottom': 20 + 'px'});
 
 
         /*
@@ -142,6 +161,37 @@
         */
 
         //Answer 9.
+        var _id = 0;
+        var slideLeft = function(){
+            _id--;
+            // $container.stop(true).animate({'left': _bannerW * _id * -1}, 500);
+            // $container.stop(true).animate({'left': _bannerW * _id * -1}, 500, function(){
+            //     //애니메이션이 끝난 후 호출되는 callback 함수.
+            //     console.log('이동 완료'); 
+            // });
+            
+            $container.stop(true).animate({'left': _bannerW * _id * -1}, 500, function(){
+                dotSelect();
+                paddleCheck();
+            });
+
+            // $container.css({'left': _bannerW * _id * -1});
+            // _bannerW(1000) * _id(1) ----- 1000.
+            // _bannerW(1000) * _id(1) * -1 ---- -1000.
+
+            //0 - x position : 0
+            //1 - x position : -1000
+            //2 - x position : -2000
+            //3 - x position : -3000
+        }
+        // slideLeft();
+        // setTimeout(function(){
+        //     _id = 1;
+        //     slideLeft();
+        // }, 1000);
+        
+        // function slideLeft() {
+        // }
 
 
         /*
@@ -151,6 +201,14 @@
         */
 
         //Answer 10.
+        var slideRight = function() {
+            _id++;
+            // $container.stop(true).animate({'left': _bannerW * _id * -1}, 500);
+            $container.stop(true).animate({'left': _bannerW * _id * -1}, 500, function(){
+                dotSelect();
+                paddleCheck();
+            });
+        }
 
 
         /*
@@ -159,6 +217,15 @@
         */
 
         //Answer 11.
+        var $prev = $paddleNav.find('.arrow.prev'), $next = $paddleNav.find('.arrow.next');
+        $prev.on('click', function(e){
+            e.preventDefault();
+            slideLeft();
+        });
+        $next.on('click', function(e){
+            e.preventDefault();
+            slideRight();
+        });
 
 
         /*
@@ -169,6 +236,10 @@
         */
 
         //Answer 12.
+        var dotSelect = function(){
+            $('span.selected').removeClass('selected');
+            $('span').eq(_id).addClass('selected');
+        }
 
 
         /*
@@ -181,8 +252,16 @@
         */
 
         //Answer 13.
-
-
+        var paddleCheck = function(){
+            if(_id === 0) {
+                $prev.addClass('disabled'); //.arrow.prev
+            } else if(_id === _itemMax - 1) {
+                $next.addClass('disabled'); //.arrow.next
+            }else{
+                $paddleNav.find('.arrow').removeClass('disabled'); //.arrow
+            }
+        }
+        paddleCheck();
     });
 })(jQuery);
 </script>
