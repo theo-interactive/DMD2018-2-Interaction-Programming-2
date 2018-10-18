@@ -116,12 +116,30 @@
                 $arrow.removeClass('disabled');
             }
         }
-        
-        $arrow.on('click', function(e) {
-            e.preventDefault();
-            // slide();
-        });
-        // paddleCheck();
+        //실행을 위한 초기화 함수.
+        var init = function() {
+            resize();
+            paddleCheck();
+            $arrow.on('click', function(e) {
+                e.preventDefault();
+                var $el = $(this); //$(e.target) - 현재 눌린 버튼을 선택.
+                if($el.is($prev)) { //prev. --
+                    if(_id > 0){ //최소값일 때 그 이하 감소하지 못하도록.
+                        _id--;
+                    }
+                }else{ //next. ++
+                    if(_id < _itemMax - 1){ //최대값일 때 그 이상 증가하지 못하도록.
+                        _id++;
+                    }
+                }
+                slide();
+            });
+            $dotEl.on('click', function(e){
+                e.preventDefault();
+            });
+        }
+        //함수 호출.
+        init();
     });
 })(jQuery);
 </script>
