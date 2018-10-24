@@ -45,11 +45,30 @@
     $(document).ready(function(){
 
         /*
+        append();
+        appendTo();
+        prepend();
+        prependTo();
+
+        after();
+        before();
+
+        html();
+        text();
+
+        empty();
+        */
+
+        /*
         Quest 1.
         my-name 아이디를 가진 span 노드를 생성하고 ‘제 이름은 본인이름입니다.’ 의 내용을 추가하여 hello 아이디를 가진 div 노드의 첫 번째 노드로 추가합니다.
         */
 
         //Answer 1.
+        //$('<span id="my-name">제 이름은 김용원입니다.</span>').appendTo('div#hello');
+        var html = '<span id="my-name">제 이름은 김용원입니다.</span>';
+        $('div#hello').eq(0).append(html);
+        // $('div#hello').eq(0).append('<span id="my-name">제 이름은 김용원입니다.</span>');
 
 
         /*
@@ -61,6 +80,43 @@
 
         var images = ['./img/banner/01.jpg', './img/banner/02.jpg', './img/banner/03.jpg'];
         //Answer 2.
+        //반복문. - 배열 원소의 반복.
+        var i = 0,
+            max = images.length,
+            $bContainer = $('div.banner-container');
+        /*
+        //1.
+        for(i; i < max; i++){
+            var $item = $('<div class="banner-item"></div>');
+            var $img = $('<img src="' + images[i] + '"/>');
+            $item.append($img);
+            $('div.banner-container').append($item);
+        }
+        //2.
+        for(i; i < max; i++){
+            var html = '';
+            html += '<div class="banner-item">';
+            html +=     '<img src="' + images[i] + '"/>';
+            html += '</div>';
+            $bContainer.append(html);
+        }
+        */
+        //3.
+        var html = '';
+        // html += '<div>';
+        for(i; i < max; i++){
+            html += '<div class="banner-item">';
+            html +=     '<img src="' + images[i] + '"/>';
+            html += '</div>';
+        }
+        // i = 0;
+        // for(i; i < max; i++){
+        //     html += '<div class="banner-item">';
+        //     html +=     '<img src="' + images[i] + '"/>';
+        //     html += '</div>';
+        // }
+        // html += '</div>';
+        $bContainer.html(html);
 
 
         /*
@@ -69,6 +125,10 @@
         */
 
         //Answer 3.
+        $('p.move-top')
+            .prependTo('body')
+            .addClass('move')
+            .text('위로 이동했습니다.');
 
 
         /*
@@ -77,6 +137,10 @@
         */
 
         //Answer 4.
+        $('p.move-bottom')
+            .appendTo('body')
+            .addClass('move')
+            .html('아래로 이동했습니다.');
 
 
         /*
@@ -85,6 +149,7 @@
         */
 
         //Answer 5.
+        $('p.error').remove();
 
 
         /*
@@ -93,6 +158,7 @@
         */
 
         //Answer 6.
+        $('p.modify').text('수정되었습니다.');
 
 
         /*
@@ -101,7 +167,8 @@
         */
 
         //Answer 7.
-
+        //$('p.modify').empty().remove();
+        $('p.modify').html('').remove();
 
         /*
         Quest 8.
@@ -109,7 +176,11 @@
         */
 
         //Answer 8.
-
+        //after();
+        var $first = $('ul.list-1 li').eq(0);
+        for(var i = 3; i > 0; i--){
+            $first.after('<li>리스트 ' + parseInt(i + 1, 10) + '</li>');
+        }
 
         /*
         Quest 9.
@@ -117,6 +188,11 @@
         */
 
         //Answer 9.
+        //before();
+        var $first = $('ul.list-2 li').eq(0);
+        for(var i = 0; i < 4; i++){
+            $first.before('<li>리스트 ' + parseInt(i + 1) + '</li>');
+        }
 
 
         /*
@@ -130,8 +206,27 @@
         */
 
         //Answer 10.
-
-
+        var $btn1 = $('button.btn-1'),
+            $box1 = $('div.box-1'),
+            bool = false;
+        $box1.width(100);
+        $btn1.on('click', function(e){
+            e.preventDefault();
+            if(bool === false){
+            //if(!bool){ //!bool -- false.
+                //500 까지 증가.
+                $box1.width('+=100');
+                if($box1.width() >= 500){
+                    bool = true;
+                }
+            }else{
+                //0 까지 감소.
+                $box1.width('-=100');
+                if($box1.width() <= 0){
+                    bool = false;
+                }
+            }
+        });
     });
 })(jQuery);
 </script>
