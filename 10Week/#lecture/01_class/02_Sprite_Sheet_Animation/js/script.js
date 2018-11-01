@@ -63,16 +63,30 @@
 
         //Func.
         var playFrame = function() {
-
+            _timer = setInterval(progressFrame, 60);
         }
         var stopFrame = function() {
-
+            clearInterval(_timer);
         }
         var progressFrame = function() {
-
+            if (!_isReverse) { //정방향.
+                _id++;
+                // 정방향일 때, 0....47 으로 증가.
+                // 47보다 큰 프레임이 존재하지 않기 때문에 애니메이션 정지.
+                if (_id >= _max - 1) stopFrame();
+            } else { //역방향.
+                _id--;
+                // 역방향일 때, 47....0 으로 감소.
+                // 0보다 작은 프레임이 존재하지 않기 때문에 애니메이션 정지.
+                if (_id <= 0) stopFrame();
+            }
+            updateFrame();
         }
         var updateFrame = function() {
+            console.log(_id);
+            
 
+            //좌표값 변경.
         }
 
         init();
