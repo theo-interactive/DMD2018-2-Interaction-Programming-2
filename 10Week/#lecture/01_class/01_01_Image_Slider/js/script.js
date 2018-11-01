@@ -9,10 +9,11 @@ $(document).ready(function() {
 
     var _cuId, _exId, _itemMax,
         _bannerW, _bannerH, _imgOW = 1000, _imgOH = 768, _imgRatio = _imgOH / _imgOW,
-        _isResize, _isAni;
+        _isResize, _isAni,
+        _timer = 0;
 
     //Declaration :: Const Variable.
-    var _duration = 500;
+    var _duration = 300, _addDuration = 200, _time = 5000;
 
     //Layout.
     var layout = function() {
@@ -109,6 +110,11 @@ $(document).ready(function() {
     //Func :: Event Handler - Dot Nav Click.
     var onClickDotNav = function(e) {
         e.preventDefault();
+        var id = $dotNavEl.index(this);
+        if (_exId !== id) { //함수 호출 중복을 방지하기 위한 조건. 이전값 확인.
+            _cuId = id;
+            bannerSlide();
+        }
     }
 
     //Func :: Event Handler - Paddle Nav Click.
@@ -147,16 +153,49 @@ $(document).ready(function() {
         var bool = (b) ? b : false;
         _isAni = true;
         if (!bool) {
-            $bannerContainer.stop(true).animate({'left' : _bannerW * _cuId * -1}, _duration, function() {
+            //단계 범위에 따라 속도를 다르게 지정하기 위한 계산.
+            var duration = _duration + _addDuration * Math.abs(_exId - _cuId);
+            /*
+            $bannerContainer.stop(true).animate({'left' : _bannerW * _cuId * -1}, duration, function() {
                 dotNavCheck();
                 paddleNavCheck();
                 _exId = _cuId;
                 _isAni = false;
             });
+            */
+
+            // $ .animate({css}, {duration : 500, dalay : 150, easing : 'easing' complete : function(){
+            //}});
+            $bannerContainer.stop(true).animate(
+                {'left' : _bannerW * _cuId * -1},
+                {duration : duration, easing : 'easeInOutQuart', complete : function(){
+                    dotNavCheck();
+                    paddleNavCheck();
+                    _exId = _cuId;
+                    _isAni = false;
+                    bannerRolling();
+                }}
+            );
         } else {
             $bannerContainer.css({'left' : _bannerW * _cuId * -1});
             _isAni = false;
+            bannerRolling();
         }
+    }
+
+    //Func :: Banner Rolling.
+    var bannerRolling = function() {
+        clearInterval(_timer);
+        _timer = setTimeout(bannerInterval, _time);
+        // setTimeout(function() {
+        // }, 1000);
+    }
+
+    //Func :: Banner Interval.
+    var bannerInterval = function() {
+        _cuId++;
+        if(_cuId >= _itemMax) _cuId = 0;
+        bannerSlide();
     }
     
     //Call.
