@@ -83,18 +83,27 @@
             updateFrame();
         }
         var updateFrame = function() {
-            console.log(_id);
-            
+            var posX = _id % _row * _itemW * -1;
+            var posY = Math.floor(_id / _col) * _itemH * -1;
 
-            //좌표값 변경.
+            // x : 현재 프레임(_id) % 열(_row)
+            // y : Math.floor(내림.) 현재 프레임(_id) / 행(_col) 
+            // 0.2, 0.5 -> 0
+            // 1.5, 1.6 -> 1
+
+
+            //0 - (0,0), 1 - (1,0), 2 - (2,0)....
+            //7 - (0,1), 8 - (1,1), 9 - (2,1)....
+            //14 - (0,2), 8 - (1,2), 9 - (2,2)....
+            //28 - (0,3), 8 - (1,3), 9 - (2,3)....
+            //....................................
+            //....................................
+
+            $el.css({'background-position' : posX + 'px ' + posY + 'px'});
+            //.animation{background-position:-144px -144px}
+            //background-position:x y;
         }
 
         init();
     });
 })(jQuery);
-
-
-
-
-//posX = _this._cuId % _this._row * _this._itemW * -1;
-//posY = Math.floor(_this._cuId / _this._col) * _this._itemH * -1;
