@@ -12,12 +12,13 @@
     </h1>
     <script type="text/javascript">
     // 과제 1.
-    var selectors = { //(1)
-        number : 2 //(2)
+    var selectors = { //(1) object - {}, array = []; //var selector = new object
+        number : 2 //(2) 
     };
     selectors.string = ''; //(3)
     selectors.dom = ['header']; //(4),(5)
     selectors.dom.push('main', 'footer');//(6)
+    //selectors['dom'].push('main'); //한가지씩 입력할 경우
 
     delete selectors.string;//(7)
     console.log(selectors);//(8)
@@ -35,6 +36,7 @@
     console.log(document);
     console.log(typeof document);
     for(var index in document){
+        // index 변수 문자열.
         console.log(index);
         console.log(document[index]);    
     }
@@ -48,6 +50,12 @@
         for(var i = 0; i < orders.coffee.length; i++){
             console.log(name + '님, 주문하신 '+ coffee[i] +' 1잔 나왔습니다.')
         }
+    }
+
+    var orderCoffee = function (number=0){
+        if(number >= orders['coffee'].length) number = 0;
+        var coffee = orders['coffee'][number];
+        var result = orders['name'][0] + '님, 주문하신'+ coffee + ' ' + cup + '잔이 나왔습니다.';
     }
     result(orders.name,orders.coffee);
 

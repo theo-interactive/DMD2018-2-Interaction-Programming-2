@@ -123,7 +123,11 @@
 
         //Answer 3.
         $('li').first().addClass('zero');
+        // $('li').eq(0).addClass('zero');
+        // $('li').get(0).addClass('zero');
 
+        // $('li').eq($('li').length -1).addClass('zero');
+        $('li').last().addClass('zero');
         /*
         Quest 4.
         문서내의 a 태그들 중 span 태그를 포함하고 있는 노드를 선택하고, 해당 태그에 inner 클래스를 추가합니다.
@@ -131,6 +135,7 @@
 
         //Answer 4.
         $('a').has('span').addClass('inner');
+        // $('a:has(span)').addClass('inner');
 
         /*
         Quest 5.
@@ -139,6 +144,7 @@
 
         //Answer 5.
         $('li[data-role=link]').addClass('role')
+        // $('li[data-role="link"]').addClass('role')
 
         /*
         Quest 6.
@@ -147,7 +153,7 @@
 
         //Answer 6.
         console.log($('#radio-list').children().length);
-
+        
         /*
         Quest 7.
         type-2 클래스를 가지고 있는 노드의 부모 노드를 찾고, 그 index 값을 console.log 메서드를 이용하여 출력합니다.
@@ -186,8 +192,8 @@
         */
 
         //Answer 11.
-        $('.sub-last').parents('.last').children('a').addClass('emphasis');
-        $('.sub-last').parents('.last').find('a').addClass('bold');
+        $('li.sub-last').parents('.last').children('a').addClass('emphasis');
+        $('li.sub-last').parents('.last').find('a').addClass('bold');
 
         
     });
