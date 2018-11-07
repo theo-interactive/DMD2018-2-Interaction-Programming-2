@@ -43,5 +43,5 @@ fieldset{border:none}
 /* ---- LAYOUT ---- */
 body {background:#ffffff}
 .animation{width:144px;height:144px;margin:20px;background-repeat:no-repeat;background-position:0 0}
-.zootopia{background-image:url(../img/zootopia.png);background-size:576px 432px}
+/* .zootopia{background-image:url(../img/zootopia.png);background-size:576px 432px} */
 .minion{background-image:url(../img/minion.png);background-size:1008px 1008px}
