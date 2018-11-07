@@ -63,24 +63,47 @@
 
         //Func.
         var playFrame = function() {
-
+            _timer = setInterval(progressFrame, 60);
         }
         var stopFrame = function() {
-
+            clearInterval(_timer);
         }
         var progressFrame = function() {
-
+            if (!_isReverse) { //정방향.
+                _id++;
+                // 정방향일 때, 0....47 으로 증가.
+                // 47보다 큰 프레임이 존재하지 않기 때문에 애니메이션 정지.
+                if (_id >= _max - 1) stopFrame();
+            } else { //역방향.
+                _id--;
+                // 역방향일 때, 47....0 으로 감소.
+                // 0보다 작은 프레임이 존재하지 않기 때문에 애니메이션 정지.
+                if (_id <= 0) stopFrame();
+            }
+            updateFrame();
         }
         var updateFrame = function() {
+            var posX = _id % _row * _itemW * -1;
+            var posY = Math.floor(_id / _col) * _itemH * -1;
 
+            // x : 현재 프레임(_id) % 열(_row)
+            // y : Math.floor(내림.) 현재 프레임(_id) / 행(_col) 
+            // 0.2, 0.5 -> 0
+            // 1.5, 1.6 -> 1
+
+
+            //0 - (0,0), 1 - (1,0), 2 - (2,0)....
+            //7 - (0,1), 8 - (1,1), 9 - (2,1)....
+            //14 - (0,2), 8 - (1,2), 9 - (2,2)....
+            //28 - (0,3), 8 - (1,3), 9 - (2,3)....
+            //....................................
+            //....................................
+
+            $el.css({'background-position' : posX + 'px ' + posY + 'px'});
+            //.animation{background-position:-144px -144px}
+            //background-position:x y;
         }
 
         init();
     });
 })(jQuery);
-
-
-
-
-//posX = _this._cuId % _this._row * _this._itemW * -1;
-//posY = Math.floor(_this._cuId / _this._col) * _this._itemH * -1;
