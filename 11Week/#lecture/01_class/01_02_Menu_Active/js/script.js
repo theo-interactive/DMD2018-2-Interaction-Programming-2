@@ -60,6 +60,8 @@ $(document).ready(function() {
             if(!_this._isClick) {
                 _this.scrollMenu();
             }
+            _this.scrollMenuVisible();
+            _this._exScroll = _this._cuScroll;
         },
         scrollMenu : function() {
             var _this = Menu;
@@ -76,6 +78,32 @@ $(document).ready(function() {
                     _this.$gnEl.eq(index).addClass('active');
                 }
             });
+        },
+        scrollMenuVisible : function() {
+            var _this = Menu;
+            if(_this._cuScroll <= 0){
+                if(_this.$gn.hasClass('hide')){
+                    _this.$gn.removeClass('hide');
+                }
+            }
+            if(_this._cuScroll < 0) return;
+            if(_this._exScroll !== undefined ){
+                if(_this._cuScroll > _this._exScroll){ //스크롤의 진행방향 체크.
+                    //아래로.
+                    //네비게이션이 hide.
+                    // _this.$gn.hide();
+                    if(!_this.$gn.hasClass('hide')){
+                        _this.$gn.addClass('hide');
+                    }
+                }else{
+                    //위로.
+                    //네비게이션이 show.
+                    // _this.$gn.show();
+                    if(_this.$gn.hasClass('hide')){
+                        _this.$gn.removeClass('hide');
+                    }
+                }
+            }
         }
     };
     Menu.init();
