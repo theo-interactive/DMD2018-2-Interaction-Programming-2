@@ -1,0 +1,99 @@
+[{
+  "title": "Photograph",
+  "artist": "offonoff",
+  "album": "Photograph",
+  "cover": "/images/01.jpg",
+  "date": "2016.11.09",
+  "code": "10013499",
+  "genre": ["Electronica", "R&B / Soul"]
+},
+
+{
+  "title": "춤",
+  "artist": "offonoff",
+  "album": "boy.",
+  "cover": "/images/02.jpg",
+  "date": "2017.07.24",
+  "code": "10082097",
+  "genre": ["Electronica", "R&B / Soul"]
+},
+
+{
+  "title": "Lay Your Head On Me",
+  "artist": "Crush",
+  "album": "Lay Your Head On Me",
+  "cover": "/images/03.jpg",
+  "date": "2018.11.16",
+  "code": "10223149",
+  "genre": ["Pop"]
+},
+
+{
+  "title": "love (Feat. Syd)",
+  "artist": "DEAN",
+  "album": "love (Feat. Syd)",
+  "cover": "/images/04.jpg",
+  "date": "2017.05.19",
+  "code": "10063730",
+  "genre": ["R&B / Soul"]
+},
+
+{
+  "title": "보물섬 (Feat.HAN)",
+  "artist": "millic",
+  "album": "VIDA",
+  "cover": "/images/05.jpg",
+  "date": "2017.07.10",
+  "code": "10078140",
+  "genre": ["Electronica"]
+},
+
+{
+  "title": "뭐가 보여 (Close Your Eyes) (Feat. Hoody)",
+  "artist": "Crush",
+  "album": "wonderlost",
+  "cover": "/images/06.jpg",
+  "date": "2018.07.13",
+  "code": "10184916",
+  "genre": ["R&B / Soul"]
+},
+
+{
+  "title": "넘어와 (Feat. 백예린)",
+  "artist": "DEAN",
+  "album": "limbo",
+  "cover": "/images/07.jpg",
+  "date": "2017.02.17",
+  "code": "10039617",
+  "genre": ["R&B / Soul"]
+},
+
+{
+  "title": "2002",
+  "artist": "Anne-Marie",
+  "album": "Speak Your Mind (Deluxe)",
+  "cover": "/images/08.jpg",
+  "date": "2018.04.27",
+  "code": "10137250",
+  "genre": ["Pop"]
+},
+
+{
+  "title": "Whiskey And Morphine",
+  "artist": "Alexander Jean",
+  "album": "VIDA",
+  "cover": "/images/09.jpg",
+  "date": "2016.06.03",
+  "code": "2688958",
+  "genre": ["Pop"]
+},
+
+{
+  "title": "Honey",
+  "artist": "Kehlani",
+  "album": "Honey",
+  "cover": "/images/10.jpg",
+  "date": "2017.10.12",
+  "code": "10101204",
+  "genre": ["R&B / Soul"]
+}]
