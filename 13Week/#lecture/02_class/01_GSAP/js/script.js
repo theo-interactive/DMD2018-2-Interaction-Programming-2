@@ -36,11 +36,27 @@ $(document).ready(function() {
       // TweenMax.to($box, 0.25, {css: {x: 0, autoAlpha: 1}, delay: 0.05 * i, ease: Power3.easeInOut});
       // TweenMax.set($box, {css: {x: 100 * (i + 1), autoAlpha: 0, rotation: 180, scale: 0.2}});
       // TweenMax.to($box, 0.4, {css: {x: 0, autoAlpha: 1, rotation: 0, scale: 1}, delay: 0.1 * i, ease: Power3.easeInOut});
+      $box1.append($box);
 
       TweenMax.set($box, {css: {x: 100 * (i + 1), autoAlpha: 0, scaleX: 0, rotationX: 180}});
-      TweenMax.to($box, 1, {css: {x: 0, autoAlpha: 1, scaleX: 1, rotationX: 0}, ease: Power3.easeInOut});
+      TweenMax.to($box, 1, 
+        {
+          ease: Power3.easeInOut,
+          onComplete: function(){
+            console.log(this.target, '애니메이션 완료');
+            // TweenMax.set($(this.target), {css: {autoAlpha: 0}});
+            // TweenMax.to($(this.target), 0.5, {css: {backgroundColor: '#ff0000'}});
+            TweenMax.to($(this.target), 0.5, {css: {backgroundColor: randomColor(), autoAlpha: 0}, delay: 2});
+          },
+          css: {
+            x: 0, 
+            autoAlpha: 1, 
+            scaleX: 1, 
+            rotationX: 0
+          },
+          delay: 0.1 * i
+        });
       
-      $box1.append($box);
       
       /*
       TweenMax.set(element, {css: {width: 200, y: 100, opacity: 0}});
