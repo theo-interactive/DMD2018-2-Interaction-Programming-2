@@ -1,0 +1,1931 @@
+[{
+  "title": "Toy Story 4",
+  "releasedate": "Fri, 21 Jun 2019 00:00:00 -0700",
+  "studio": "Walt Disney Pictures",
+  "poster": "/trailers/disney/toy-story-4/images/poster.jpg",
+  "poster_2x": "/trailers/disney/toy-story-4/images/poster_2x.jpg",
+  "location": "/trailers/disney/toy-story-4/",
+  "rating": "Not yet rated",
+  "genre": ["Comedy", "Family"],
+  "directors": "Josh Cooley",
+  "actors": ["Tom Hanks", "Tim Allen", "Joan Cusack", "Don Rickles", "Estelle Harris", "Wallace Shawn", "John Ratzenberger", "Jeff Pidgeon", "Blake Clark", "Tony Hale"],
+  "trailers": [{
+      "postdate": "Mon, 12 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/disney/toy-story-4/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Generation Iron 3",
+  "studio": "Independent",
+  "poster": "/trailers/independent/generation-iron-3/images/poster.jpg",
+  "poster_2x": "/trailers/independent/generation-iron-3/images/poster_2x.jpg",
+  "location": "/trailers/independent/generation-iron-3/",
+  "rating": "Not yet rated",
+  "genre": ["Documentary"],
+  "directors": "Vlad Yudin",
+  "actors": ["Kai Greene", "Jay Cutler", "Rich Gaspari", "Hadi Choopan", "Brandon Hendrickson", "Rafael Brandao", "Chris Bumstead"],
+  "trailers": [{
+      "postdate": "Mon, 12 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/generation-iron-3/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 02 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/generation-iron-3/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Pok\u00e9mon Detective Pikachu",
+  "releasedate": "Fri, 10 May 2019 00:00:00 -0700",
+  "studio": "Warner Bros. Pictures",
+  "poster": "/trailers/wb/pokemon-detective-pikachu/images/poster.jpg",
+  "poster_2x": "/trailers/wb/pokemon-detective-pikachu/images/poster_2x.jpg",
+  "location": "/trailers/wb/pokemon-detective-pikachu/",
+  "rating": "Not yet rated",
+  "genre": ["Action and Adventure", "Fantasy", "Family"],
+  "directors": "Rob Letterman",
+  "actors": ["Ryan Reynolds", "Justice Smith", "Kathryn Newton", "Ken Watanabe"],
+  "trailers": [{
+      "postdate": "Mon, 12 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/wb/pokemon-detective-pikachu/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Asher",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/asher/images/poster.jpg",
+  "poster_2x": "/trailers/independent/asher/images/poster_2x.jpg",
+  "location": "/trailers/independent/asher/",
+  "rating": "R",
+  "genre": ["Action and Adventure"],
+  "directors": "Michael Caton-Jones",
+  "actors": ["Ron Perlman", "Famke Janssen", "Richard Dreyfuss", "Peter Facinelli", "Jacqueline Bisset"],
+  "trailers": [{
+      "postdate": "Mon, 12 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/asher/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Captive State",
+  "releasedate": "Fri, 29 Mar 2019 00:00:00 -0700",
+  "studio": "Focus Features",
+  "poster": "/trailers/focus_features/captive-state/images/poster.jpg",
+  "poster_2x": "/trailers/focus_features/captive-state/images/poster_2x.jpg",
+  "location": "/trailers/focus_features/captive-state/",
+  "rating": "PG-13",
+  "genre": ["Science Fiction", "Thriller"],
+  "directors": "Rupert Wyatt",
+  "actors": ["John Goodman", "Ashton Sanders", "Jonathan Majors", "Colson Baker", "Vera Farmiga"],
+  "trailers": [{
+      "postdate": "Sat, 10 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/focus_features/captive-state/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 14 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/focus_features/captive-state/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Here And Now",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Paramount Pictures",
+  "poster": "/trailers/paramount/here-and-now/images/poster.jpg",
+  "poster_2x": "/trailers/paramount/here-and-now/images/poster_2x.jpg",
+  "moviesite": "http://www.hereandnowfilm.com",
+  "location": "/trailers/paramount/here-and-now/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Fabien Constant",
+  "actors": ["Sarah Jessica Parker", "Simon Baker", "Common", "Taylor Kinney", "Waleed Zuaiter", "Jacqueline Bisset", "Renee Zellweger"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/paramount/here-and-now/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 12 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/paramount/here-and-now/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Fantastic Beasts: The Crimes Of Grindelwald",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Warner Bros. Pictures",
+  "poster": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/images/poster.jpg",
+  "poster_2x": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/images/poster_2x.jpg",
+  "moviesite": "http://fantasticbeasts.com",
+  "location": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/",
+  "rating": "PG-13",
+  "genre": ["Action and Adventure", "Fantasy"],
+  "directors": "David Yates",
+  "actors": ["Eddie Redmayne", "Katherine Waterston", "Dan Fogler", "Alison Sudol", "Ezra Miller", "Jude Law", "Johnny Depp"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/",
+      "type": "Featurette - Harry Potter",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 25 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/",
+      "type": "Trailer 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Sat, 21 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 13 Mar 2018 00:00:00 -0700",
+      "url": "/trailers/wb/fantastic-beasts-the-crimes-of-grindelwald/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Missing Link",
+  "releasedate": "Fri, 12 Apr 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/missing-link/images/poster.jpg",
+  "poster_2x": "/trailers/independent/missing-link/images/poster_2x.jpg",
+  "moviesite": "http://www.missinglink.movie",
+  "location": "/trailers/independent/missing-link/",
+  "rating": "Not yet rated",
+  "genre": ["Family"],
+  "directors": "Chris Butler",
+  "actors": ["Hugh Jackman", "Zoe Saldana", "Zach Galifianakis", "Timothy Olyphant", "Emma Thompson", "David Walliams", "Stephen Fry", "Matt Lucas"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/missing-link/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Vox Lux",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/vox-lux/images/poster.jpg",
+  "poster_2x": "/trailers/independent/vox-lux/images/poster_2x.jpg",
+  "moviesite": "http://www.voxluxmovie.com",
+  "location": "/trailers/independent/vox-lux/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Brady Corbet",
+  "actors": ["Natalie Portman", "Jude Law", "Raffey Cassidy", "Stacy Martin", "Jennifer Ehle", "Christopher Abbott", "Willem Dafoe"],
+  "trailers": [{
+      "postdate": "Thu, 08 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/vox-lux/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Lez Bomb",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/lez-bomb/images/poster.jpg",
+  "poster_2x": "/trailers/independent/lez-bomb/images/poster_2x.jpg",
+  "moviesite": "https://www.facebook.com/lezbombmovie",
+  "location": "/trailers/independent/lez-bomb/",
+  "rating": "NR",
+  "genre": ["Comedy", "Romance"],
+  "directors": "Jenna Laurenzo",
+  "actors": ["Jenna Laurenzo", "Caitlin Mehner", "Bruce Dern", "Cloris Leachman", "Steve Guttenberg"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/lez-bomb/",
+      "type": "Clip - Thanksgiving",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 08 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/lez-bomb/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Secret Life Of Pets 2",
+  "studio": "Universal Pictures",
+  "poster": "/trailers/universal/the-secret-life-of-pets-2/images/poster.jpg",
+  "poster_2x": "/trailers/universal/the-secret-life-of-pets-2/images/poster_2x.jpg",
+  "location": "/trailers/universal/the-secret-life-of-pets-2/",
+  "rating": "Not yet rated",
+  "genre": ["Comedy", "Family", "Action and Adventure"],
+  "directors": "Chris Renaud, Jonathan Del Val",
+  "actors": ["Lake Bell", "Hannibal Buress", "Dana Carvey", "Harrison Ford", "Tiffany Haddish", "Kevin Hart", "Pete Holmes", "Garth Jennings", "Ellie Kemper", "Nick Kroll", "Bobby Moynihan", "Patton Oswald", "Jenny Slate", "Eric Stonestreet"],
+  "trailers": [{
+      "postdate": "Thu, 08 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/universal/the-secret-life-of-pets-2/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Divide And Conquer: The Story Of Roger Ailes",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Magnolia Pictures",
+  "poster": "/trailers/magnolia/divide-and-conquer-the-story-of-roger-ailes/images/poster.jpg",
+  "poster_2x": "/trailers/magnolia/divide-and-conquer-the-story-of-roger-ailes/images/poster_2x.jpg",
+  "moviesite": "http://www.magpictures.com/divideandconquer/",
+  "location": "/trailers/magnolia/divide-and-conquer-the-story-of-roger-ailes/",
+  "rating": "Not yet rated",
+  "genre": ["Documentary"],
+  "directors": "Alexis Bloom",
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/magnolia/divide-and-conquer-the-story-of-roger-ailes/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "UglyDolls",
+  "releasedate": "Fri, 10 May 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/uglydolls/images/poster.jpg",
+  "poster_2x": "/trailers/independent/uglydolls/images/poster_2x.jpg",
+  "moviesite": "https://www.uglydolls.com",
+  "location": "/trailers/independent/uglydolls/",
+  "rating": "Not yet rated",
+  "genre": ["Family", "Musical"],
+  "directors": "Kelly Asbury",
+  "actors": ["Kelly Clarkson", "Nick Jonas", "Blake Shelton", "Janelle Monae", "Wanda Sykes", "Emma Roberts", "Gabriel Iglesias", "Wang Leehom", "Pitbull"],
+  "trailers": [{
+      "postdate": "Thu, 08 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/uglydolls/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Beach Bum",
+  "releasedate": "Fri, 22 Mar 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-beach-bum/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-beach-bum/images/poster_2x.jpg",
+  "moviesite": "http://www.neonrated.com",
+  "location": "/trailers/independent/the-beach-bum/",
+  "rating": "Not yet rated",
+  "genre": ["Comedy"],
+  "directors": "Harmony Korine",
+  "actors": ["Matthew McConaughey", "Snoop Dogg", "Isla Fisher", "Stefania Lavie Owen", "Zac Efron", "Martin Lawrence", "Jimmy Buffett"],
+  "trailers": [{
+      "postdate": "Thu, 08 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/the-beach-bum/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Between Worlds",
+  "releasedate": "Fri, 21 Dec 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/between-worlds/images/poster.jpg",
+  "poster_2x": "/trailers/independent/between-worlds/images/poster_2x.jpg",
+  "location": "/trailers/independent/between-worlds/",
+  "rating": "NR",
+  "genre": ["Thriller", "Drama"],
+  "directors": "Maria Pulera",
+  "actors": ["Nicolas Cage", "Franka Potente", "Penelope Mitchell", "Garret Clayton", "Lydia Hearst", "Brit Shaw", "Hopper Penn"],
+  "trailers": [{
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/between-worlds/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Robin Hood",
+  "releasedate": "Wed, 21 Nov 2018 00:00:00 -0800",
+  "studio": "Lionsgate",
+  "poster": "/trailers/lions_gate/robin-hood/images/poster.jpg",
+  "poster_2x": "/trailers/lions_gate/robin-hood/images/poster_2x.jpg",
+  "moviesite": "https://robinhood.movie/",
+  "location": "/trailers/lions_gate/robin-hood/",
+  "rating": "PG-13",
+  "genre": ["Action and Adventure"],
+  "directors": "Otto Bathurst",
+  "actors": ["Taron Egerton", "Jamie Foxx", "Ben Mendelsohn", "Eve Hewson", "Tim Minchin", "Jamie Dornan"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Clip - That\u0027s Where We Hit It",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Clip - Law And Order",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Clip - See Who Bites",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 22 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Clip - Training",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 11 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Featurette",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Wed, 03 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Trailer 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 17 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 03 May 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/robin-hood/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The New Romantic",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-new-romantic/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-new-romantic/images/poster_2x.jpg",
+  "location": "/trailers/independent/the-new-romantic/",
+  "rating": "NR",
+  "genre": ["Comedy", "Romance"],
+  "directors": "Carly Stone",
+  "actors": ["Jessica Barden", "Camila Mendes", "Brett Dier", "Hayley Law", "Avan Jogia"],
+  "trailers": [{
+      "postdate": "Thu, 08 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/the-new-romantic/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 06 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/the-new-romantic/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Time Trap",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/time-trap/images/poster.jpg",
+  "poster_2x": "/trailers/independent/time-trap/images/poster_2x.jpg",
+  "moviesite": "http://www.timetrapmovie.com/",
+  "location": "/trailers/independent/time-trap/",
+  "rating": "NR",
+  "genre": ["Science Fiction", "Action and Adventure"],
+  "directors": "Mark Dennis, Ben Foster",
+  "actors": ["Andrew Wilson", "Cassidy Gifford", "Reiley McClendon", "Brianne Howey", "Max Wright", "Olivia Draguicevich"],
+  "trailers": [{
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/time-trap/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/time-trap/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 05 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/time-trap/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "River Runs Red",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/river-runs-red/images/poster.jpg",
+  "poster_2x": "/trailers/independent/river-runs-red/images/poster_2x.jpg",
+  "location": "/trailers/independent/river-runs-red/",
+  "rating": "NR",
+  "genre": ["Thriller", "Drama"],
+  "directors": "Wes Miller",
+  "actors": ["Taye Diggs", "George Lopez", "John Cusack", "Luke Hemsworth", "Gianni Capaldi", "R.J. Mitte"],
+  "trailers": [{
+      "postdate": "Fri, 09 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/river-runs-red/",
+      "type": "Clip - Our Son Is Not A Cause",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 02 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/river-runs-red/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "DriverX",
+  "releasedate": "Fri, 30 Nov 2018 00:00:00 -0800",
+  "studio": "IFC Films",
+  "poster": "/trailers/ifcfilms/driverx/images/poster.jpg",
+  "poster_2x": "/trailers/ifcfilms/driverx/images/poster_2x.jpg",
+  "moviesite": "http://www.ifcfilms.com/films/Wildlife",
+  "location": "/trailers/ifcfilms/driverx/",
+  "rating": "Not yet rated",
+  "genre": ["Drama"],
+  "directors": "Henry Barrial",
+  "actors": ["Patrick Fabian", "Tanya Clarke", "Desmin Borges", "Oscar Nunez", "Travis Schuldt", "Melissa Fumero"],
+  "trailers": [{
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/ifcfilms/driverx/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Bohemian Rhapsody",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "20th Century Fox",
+  "poster": "/trailers/fox/bohemian-rhapsody/images/poster.jpg",
+  "poster_2x": "/trailers/fox/bohemian-rhapsody/images/poster_2x.jpg",
+  "moviesite": "http://www.bohemianrhapsody.com",
+  "location": "/trailers/fox/bohemian-rhapsody/",
+  "rating": "PG-13",
+  "genre": ["Drama", "Musical"],
+  "directors": "Bryan Singer",
+  "actors": ["Rami Malek", "Lucy Boynton", "Gwilym Lee", "Ben Hardy", "Joseph Mazzello", "Aiden Gillen", "Tom Hollander", "Mike Myers"],
+  "trailers": [{
+      "postdate": "Thu, 25 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/fox/bohemian-rhapsody/",
+      "type": "Trailer 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 17 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/fox/bohemian-rhapsody/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 15 May 2018 00:00:00 -0700",
+      "url": "/trailers/fox/bohemian-rhapsody/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "A Private War",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/a-private-war/images/poster.jpg",
+  "poster_2x": "/trailers/independent/a-private-war/images/poster_2x.jpg",
+  "moviesite": "http://APrivateWarFilm.com",
+  "location": "/trailers/independent/a-private-war/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Matthew Heineman",
+  "actors": ["Rosamund Pike", "Jamie Dornan", "Tom Hollander", "Stanley Tucci"],
+  "trailers": [{
+      "postdate": "Tue, 06 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/a-private-war/",
+      "type": "Clip - Get Me Back In The Field",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Wed, 05 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/independent/a-private-war/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Of Fathers And Sons",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/of-fathers-and-sons/images/poster.jpg",
+  "poster_2x": "/trailers/independent/of-fathers-and-sons/images/poster_2x.jpg",
+  "moviesite": "https://www.kinolorber.com/film/view/id/3193",
+  "location": "/trailers/independent/of-fathers-and-sons/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Talal Derki",
+  "trailers": [{
+      "postdate": "Wed, 07 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/of-fathers-and-sons/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Alt-Right: Age of Rage",
+  "releasedate": "Fri, 17 Aug 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/alt-right-age-of-rage/images/poster.jpg",
+  "poster_2x": "/trailers/independent/alt-right-age-of-rage/images/poster_2x.jpg",
+  "moviesite": "http://gravitasventures.com/altright/",
+  "location": "/trailers/independent/alt-right-age-of-rage/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Adam Bhala Lough",
+  "actors": ["Daryle Lamont Jenkins", "Mark Potok", "Richard Spencer", "Jared Taylor"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/alt-right-age-of-rage/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 17 Aug 2018 00:00:00 -0700",
+      "url": "/trailers/independent/alt-right-age-of-rage/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Five Feet Apart",
+  "releasedate": "Fri, 22 Mar 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/five-feet-apart/images/poster.jpg",
+  "poster_2x": "/trailers/independent/five-feet-apart/images/poster_2x.jpg",
+  "location": "/trailers/independent/five-feet-apart/",
+  "rating": "Not yet rated",
+  "genre": ["Drama", "Romance"],
+  "directors": "Justin Baldoni",
+  "actors": ["Haley Lu Richardson", "Cole Sprouse", "Moises Arias", "Kimberly H\u00e9bert Gregory", "Paraminder Nagra", "Claire Forlani"],
+  "trailers": [{
+      "postdate": "Tue, 06 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/five-feet-apart/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Spies In Disguise",
+  "releasedate": "Fri, 13 Sep 2019 00:00:00 -0700",
+  "studio": "20th Century Fox",
+  "poster": "/trailers/fox/spies-in-disguise/images/poster.jpg",
+  "poster_2x": "/trailers/fox/spies-in-disguise/images/poster_2x.jpg",
+  "moviesite": "https://www.foxmovies.com/movies/spies-in-disguise",
+  "location": "/trailers/fox/spies-in-disguise/",
+  "rating": "Not yet rated",
+  "genre": ["Comedy", "Family"],
+  "directors": "Troy Quane, Nick Bruno",
+  "actors": ["Will Smith", "Tom Holland", "Ben Mendelsohn", "Karen Gillan", "Rashida Jones", "DJ Khaled", "Masi Oka"],
+  "trailers": [{
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/fox/spies-in-disguise/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "El Angel",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/el-angel/images/poster.jpg",
+  "poster_2x": "/trailers/independent/el-angel/images/poster_2x.jpg",
+  "moviesite": "http://www.elangel.film",
+  "location": "/trailers/independent/el-angel/",
+  "rating": "NR",
+  "genre": ["Drama", "Foreign"],
+  "directors": "Luis Ortega",
+  "actors": ["Lorenzo Ferro", "Chino Dar\u00edn", "Daniel Fanego", "Mercedes Mor\u00e1n", "Luis Gnecco", "Peter Lanzani", "Cecilia Roth"],
+  "trailers": [{
+      "postdate": "Tue, 06 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/el-angel/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Wed, 03 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/el-angel/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Quake",
+  "releasedate": "Fri, 14 Dec 2018 00:00:00 -0800",
+  "studio": "Magnolia Pictures",
+  "poster": "/trailers/magnolia/the-quake/images/poster.jpg",
+  "poster_2x": "/trailers/magnolia/the-quake/images/poster_2x.jpg",
+  "moviesite": "http://TheQuakeMovie.com",
+  "location": "/trailers/magnolia/the-quake/",
+  "rating": "Not yet rated",
+  "genre": ["Action and Adventure", "Thriller", "Drama"],
+  "directors": "John Andreas Andersen",
+  "actors": ["Kristoffer Joner", "Ane Dahl Torp", "Kathrine Thorborg Johansen", "Jonas Hoff Oftebro", "Edith Haagenrud-Sande"],
+  "trailers": [{
+      "postdate": "Mon, 29 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/magnolia/the-quake/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Capernaum",
+  "releasedate": "Fri, 14 Dec 2018 00:00:00 -0800",
+  "studio": "Sony Pictures Classics",
+  "poster": "/trailers/sony/capernaum/images/poster.jpg",
+  "poster_2x": "/trailers/sony/capernaum/images/poster_2x.jpg",
+  "moviesite": "http://www.capernaum-movie.cm",
+  "location": "/trailers/sony/capernaum/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Nadine Labaki",
+  "actors": ["Zain Al Rafeea", "Yordanos Shiferaw", "Boluwatife Treasure Bankole"],
+  "trailers": [{
+      "postdate": "Wed, 07 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/sony/capernaum/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Long Dumb Road",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-long-dumb-road/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-long-dumb-road/images/poster_2x.jpg",
+  "moviesite": "https://longdumbroadmovie.com/",
+  "location": "/trailers/independent/the-long-dumb-road/",
+  "rating": "R",
+  "genre": ["Comedy"],
+  "directors": "Hannah Fidell",
+  "actors": ["Tony Revolori", "Jason Mantzoukas", "Taissa Farmiga", "Grace Gummer", "Casey Wilson", "Ron Livingston"],
+  "trailers": [{
+      "postdate": "Wed, 07 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/the-long-dumb-road/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Wed, 24 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-long-dumb-road/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Speed Kills",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/speed-kills/images/poster.jpg",
+  "poster_2x": "/trailers/independent/speed-kills/images/poster_2x.jpg",
+  "location": "/trailers/independent/speed-kills/",
+  "rating": "R",
+  "genre": ["Action and Adventure"],
+  "directors": "Jodi Scurfield",
+  "actors": ["John Travolta", "Katheryn Winnick", "Jennifer Esposito", "Michael Weston", "Jordi Moll\u00e0", "Amaury Nolasco", "Matthew Modine", "James Remar", "Kellan Lutz"],
+  "trailers": [{
+      "postdate": "Wed, 31 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/speed-kills/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Welcome Home",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/welcome-home/images/poster.jpg",
+  "poster_2x": "/trailers/independent/welcome-home/images/poster_2x.jpg",
+  "location": "/trailers/independent/welcome-home/",
+  "rating": "Not yet rated",
+  "genre": ["Thriller"],
+  "directors": "George Ratliff",
+  "actors": ["Aaron Paul", "Emily Ratajkowski", "Riccardo Scamarcio"],
+  "trailers": [{
+      "postdate": "Wed, 31 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/welcome-home/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Monster Party",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/monster-party/images/poster.jpg",
+  "poster_2x": "/trailers/independent/monster-party/images/poster_2x.jpg",
+  "location": "/trailers/independent/monster-party/",
+  "rating": "R",
+  "genre": ["Horror", "Thriller"],
+  "directors": "Chris von Hoffmann",
+  "actors": ["Julian McMahon", "Robin Tunney", "Sam Strike", "Brandon Micheal Hall", "Virginia Gardner", "Lance Reddick", "Erin Moriarty", "Diego Boneta"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/monster-party/",
+      "type": "Clip - What\u0027s The Occassion?",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/monster-party/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Best Of Enemies",
+  "releasedate": "Fri, 05 Apr 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-best-of-enemies/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-best-of-enemies/images/poster_2x.jpg",
+  "moviesite": "https://www.thebestofenemies.movie",
+  "location": "/trailers/independent/the-best-of-enemies/",
+  "rating": "PG-13",
+  "genre": ["Drama"],
+  "directors": "Robin Bissell",
+  "actors": ["Taraji P. Henson", "Sam Rockwell", "Babou Ceesay", "Anne Heche", "Wes Bentley", "Nick Searcy", "John Gallagher Jr.", "Bruce McGill"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-best-of-enemies/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Overlord",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Paramount Pictures",
+  "poster": "/trailers/paramount/overlord/images/poster.jpg",
+  "poster_2x": "/trailers/paramount/overlord/images/poster_2x.jpg",
+  "location": "/trailers/paramount/overlord/",
+  "rating": "R",
+  "genre": ["Horror"],
+  "directors": "Julius Avery",
+  "actors": ["Jovan Adepo", "Wyatt Russell", "Pilou Asb\u00e6k", "John Magaro", "Mathilde Ollivier"],
+  "trailers": [{
+      "postdate": "Fri, 05 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/paramount/overlord/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Wed, 18 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/paramount/overlord/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Jinn",
+  "releasedate": "Thu, 15 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/jinn/images/poster.jpg",
+  "poster_2x": "/trailers/independent/jinn/images/poster_2x.jpg",
+  "location": "/trailers/independent/jinn/",
+  "rating": "NR",
+  "genre": ["Drama"],
+  "directors": "Nijla Mu\u0027min",
+  "actors": ["Zoe Renee", "Simone Missick", "Kelvin Harrison Jr.", "Dorian Missick", "Hisham Tawfiq", "Kelly Jenrette"],
+  "trailers": [{
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/jinn/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Daughters Of The Sexual Revolution: The Untold Story Of The Dallas Cowboys Cheerleaders",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/daughters-of-the-sexual-revolution/images/poster.jpg",
+  "poster_2x": "/trailers/independent/daughters-of-the-sexual-revolution/images/poster_2x.jpg",
+  "moviesite": "https://www.facebook.com/thesuzannemitchellstory/",
+  "location": "/trailers/independent/daughters-of-the-sexual-revolution/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Dana Adam Shapiro",
+  "actors": ["Joe Nick Patoski", "Suzette Hash Freeman", "Cindy Smith Bennett", "Candy Evans", "Vonciel Baker", "Dale Hansen", "Shannon Baker Werthmann", "Dana Presley Killmer", "Suzanne Mitchell", "Mark Lane"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/daughters-of-the-sexual-revolution/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/daughters-of-the-sexual-revolution/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Haunting On Fraternity Row",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/haunting-on-fraternity-row/images/poster.jpg",
+  "poster_2x": "/trailers/independent/haunting-on-fraternity-row/images/poster_2x.jpg",
+  "location": "/trailers/independent/haunting-on-fraternity-row/",
+  "rating": "NR",
+  "genre": ["Horror"],
+  "directors": "Brant Sersen",
+  "actors": ["Jacob Artist", "Jayson Blair", "Shanley Caswell"],
+  "trailers": [{
+      "postdate": "Fri, 26 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/haunting-on-fraternity-row/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Isn\u0027t It Romantic",
+  "releasedate": "Thu, 14 Feb 2019 00:00:00 -0800",
+  "studio": "Warner Bros. Pictures",
+  "poster": "/trailers/wb/isnt-it-romantic/images/poster.jpg",
+  "poster_2x": "/trailers/wb/isnt-it-romantic/images/poster_2x.jpg",
+  "moviesite": "http://www.isntitromantic.com",
+  "location": "/trailers/wb/isnt-it-romantic/",
+  "rating": "PG-13",
+  "genre": ["Comedy", "Romance"],
+  "directors": "Todd Strauss-Schulson",
+  "actors": ["Rebel Wilson", "Liam Hemsworth", "Adam Devine", "Priyanka Chopra", "Betty Gilpin", "Brandon Scott Jones"],
+  "trailers": [{
+      "postdate": "Wed, 31 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/wb/isnt-it-romantic/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Cold Pursuit",
+  "releasedate": "Fri, 08 Feb 2019 00:00:00 -0800",
+  "studio": "Summit Entertainment",
+  "poster": "/trailers/summit/cold-pursuit/images/poster.jpg",
+  "poster_2x": "/trailers/summit/cold-pursuit/images/poster_2x.jpg",
+  "moviesite": "http://lionsgatepublicity.com/theatrical/coldpursuit/",
+  "location": "/trailers/summit/cold-pursuit/",
+  "rating": "Not yet rated",
+  "genre": ["Thriller", "Action and Adventure"],
+  "directors": "Hans Petter Moland",
+  "actors": ["Liam Neeson", "Laura Dern", "Emmy Rossum", "Tom Bateman"],
+  "trailers": [{
+      "postdate": "Fri, 26 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/summit/cold-pursuit/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Upside",
+  "releasedate": "Fri, 11 Jan 2019 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-upside/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-upside/images/poster_2x.jpg",
+  "moviesite": "https://www.theupside.movie",
+  "location": "/trailers/independent/the-upside/",
+  "rating": "PG-13",
+  "genre": ["Drama"],
+  "directors": "Neil Burger",
+  "actors": ["Kevin Hart", "Bryan Cranston", "Nicole Kidman"],
+  "trailers": [{
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-upside/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Clovehitch Killer",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-clovehitch-killer/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-clovehitch-killer/images/poster_2x.jpg",
+  "location": "/trailers/independent/the-clovehitch-killer/",
+  "rating": "NR",
+  "genre": ["Thriller"],
+  "directors": "Duncan Skiles",
+  "actors": ["Dylan McDermott", "Charlie Plummer", "Samantha Mathis", "Madisen Beaty", "Brenna Sherman", "Lance Chantiles-Wertz"],
+  "trailers": [{
+      "postdate": "Wed, 31 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-clovehitch-killer/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Prodigy",
+  "releasedate": "Fri, 08 Feb 2019 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-prodigy/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-prodigy/images/poster_2x.jpg",
+  "location": "/trailers/independent/the-prodigy/",
+  "rating": "R",
+  "genre": ["Horror", "Thriller"],
+  "directors": "Nicholas McCarthy",
+  "actors": ["Taylor Schilling", "Jasckson Robert Scott", "Peter Mooney", "Colm Feore"],
+  "trailers": [{
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-prodigy/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "How To Train Your Dragon: The Hidden World",
+  "releasedate": "Fri, 01 Mar 2019 00:00:00 -0800",
+  "studio": "DreamWorks Animation LLC.",
+  "poster": "/trailers/dreamworks/how-to-train-your-dragon-the-hidden-world/images/poster.jpg",
+  "poster_2x": "/trailers/dreamworks/how-to-train-your-dragon-the-hidden-world/images/poster_2x.jpg",
+  "moviesite": "http://www.howtotrainyourdragon.com",
+  "location": "/trailers/dreamworks/how-to-train-your-dragon-the-hidden-world/",
+  "rating": "Not yet rated",
+  "genre": ["Action and Adventure", "Family"],
+  "directors": "Dean DeBlois",
+  "actors": ["Jay Baruchel", "America Ferrera", "Cate Blanchett", "Kit Harrington", "Craig Ferguson", "F. Murray Abraham"],
+  "trailers": [{
+      "postdate": "Thu, 25 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/dreamworks/how-to-train-your-dragon-the-hidden-world/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 07 Jun 2018 00:00:00 -0700",
+      "url": "/trailers/dreamworks/how-to-train-your-dragon-the-hidden-world/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Pimp",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/pimp/images/poster.jpg",
+  "poster_2x": "/trailers/independent/pimp/images/poster_2x.jpg",
+  "location": "/trailers/independent/pimp/",
+  "rating": "R",
+  "genre": ["Drama", "Thriller"],
+  "directors": "Christine Crokos",
+  "actors": ["Keke Palmer", "Haley Ramm", "Aunjanue Ellis", "Vanessa Morgan", "Mike E. Winfield", "Edi Gathegi", "DMX"],
+  "trailers": [{
+      "postdate": "Mon, 29 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/pimp/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Back Roads",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Samuel Goldwyn Films",
+  "poster": "/trailers/independent/back-roads/images/poster.jpg",
+  "poster_2x": "/trailers/independent/back-roads/images/poster_2x.jpg",
+  "moviesite": "http://www.samuelgoldwynfilms.com/back-roads/",
+  "location": "/trailers/independent/back-roads/",
+  "rating": "NR",
+  "genre": ["Thriller", "Drama"],
+  "directors": "Alex Pettyfer",
+  "actors": ["Alex Pettyfer", "Jennifer Morrison", "Nicola Peltz", "Robert Patrick", "Juliette Lewis"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/back-roads/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Killer Kate!",
+  "releasedate": "Fri, 26 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/killer-kate/images/poster.jpg",
+  "poster_2x": "/trailers/independent/killer-kate/images/poster_2x.jpg",
+  "location": "/trailers/independent/killer-kate/",
+  "rating": "NR",
+  "genre": ["Horror"],
+  "directors": "Elliot Feld",
+  "actors": ["Danielle Burgess", "Tiffany Shepis", "Alexandra Feld"],
+  "trailers": [{
+      "postdate": "Fri, 26 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/killer-kate/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 28 Aug 2018 00:00:00 -0700",
+      "url": "/trailers/independent/killer-kate/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Pet Sematary",
+  "releasedate": "Fri, 05 Apr 2019 00:00:00 -0700",
+  "studio": "Paramount Pictures",
+  "poster": "/trailers/paramount/pet-sematary/images/poster.jpg",
+  "poster_2x": "/trailers/paramount/pet-sematary/images/poster_2x.jpg",
+  "location": "/trailers/paramount/pet-sematary/",
+  "rating": "Not yet rated",
+  "genre": ["Horror", "Drama"],
+  "directors": "Kevin K\u00f6lsch, Dennis Widmyer",
+  "actors": ["Jason Clarke", "Amy Seimetz", "John Lithgow"],
+  "trailers": [{
+      "postdate": "Wed, 10 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/paramount/pet-sematary/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Tumbbad",
+  "releasedate": "Fri, 12 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/tumbbad/images/poster.jpg",
+  "poster_2x": "/trailers/independent/tumbbad/images/poster_2x.jpg",
+  "location": "/trailers/independent/tumbbad/",
+  "rating": "Not yet rated",
+  "genre": ["Horror"],
+  "directors": "Rahi Anil Barve",
+  "actors": ["Sohum Shah", "Jyoti Malshe", "Dhundhiraj Prabhakar Jogalekar", "Anita Date", "Deepak Damle", "Ronjini Chakraborty", "Mohd. Samad", "Rajshekhar"],
+  "trailers": [{
+      "postdate": "Mon, 22 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/tumbbad/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Boy Erased",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Focus Features",
+  "poster": "/trailers/focus_features/boy-erased/images/poster.jpg",
+  "poster_2x": "/trailers/focus_features/boy-erased/images/poster_2x.jpg",
+  "location": "/trailers/focus_features/boy-erased/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Joel Edgerton",
+  "actors": ["Lucas Hedges", "Nicole Kidman", "Russell Crowe", "Joel Edgerton", "Cherry Jones", "Michael Balzary", "Xavier Dolan", "Troye Sivan", "Jesse LaTourette"],
+  "trailers": [{
+      "postdate": "Wed, 31 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/focus_features/boy-erased/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 17 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/focus_features/boy-erased/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Viper Club",
+  "releasedate": "Fri, 26 Oct 2018 00:00:00 -0700",
+  "studio": "Roadside Attractions",
+  "poster": "/trailers/roadsideattractions/viper-club/images/poster.jpg",
+  "poster_2x": "/trailers/roadsideattractions/viper-club/images/poster_2x.jpg",
+  "moviesite": "http://www.viperclubmovie.com/",
+  "location": "/trailers/roadsideattractions/viper-club/",
+  "rating": "NR",
+  "genre": ["Thriller"],
+  "directors": "Maryam Keshavarz",
+  "actors": ["Susan Sarandon", "Matt Bomer", "Lola Kirke", "Julian Morris", "Shelia Vand", "Adepero Oduye", "Edie Falco"],
+  "trailers": [{
+      "postdate": "Wed, 24 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/roadsideattractions/viper-club/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 11 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/roadsideattractions/viper-club/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Unlovable",
+  "releasedate": "Sat, 01 Nov 2008 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/unlovable/images/poster.jpg",
+  "poster_2x": "/trailers/independent/unlovable/images/poster_2x.jpg",
+  "location": "/trailers/independent/unlovable/",
+  "rating": "NR",
+  "genre": ["Comedy", "Drama"],
+  "directors": "Suzi Yoonessi",
+  "actors": ["Charlene deGuzman", "John Hawkes", "Paul James", "Ellen Geer", "Melissa Leo"],
+  "trailers": [{
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/unlovable/",
+      "type": "Clip - Joy Finds Drums   ",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/unlovable/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Big Kill",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/big-kill/images/poster.jpg",
+  "poster_2x": "/trailers/independent/big-kill/images/poster_2x.jpg",
+  "location": "/trailers/independent/big-kill/",
+  "rating": "R",
+  "genre": ["Drama", "Action and Adventure"],
+  "directors": "Scott Martin",
+  "actors": ["Christoph Sanders", "Jason Patric", "Michael Pare", "Lou Diomond Phillips", "Danny Trejo", "Scott Martin", "Clint Hummel", "Stephanie Beren", "Elizabeth McLaughlin"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/big-kill/",
+      "type": "Clip - You Have To Cock The Hammer, Son",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 04 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/big-kill/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Team Khan",
+  "releasedate": "Fri, 16 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/team-khan/images/poster.jpg",
+  "poster_2x": "/trailers/independent/team-khan/images/poster_2x.jpg",
+  "moviesite": "http://teamkhanmovie.com/",
+  "location": "/trailers/independent/team-khan/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Blair MacDonald, Oliver Clark",
+  "actors": ["Amir Khan", "Manny Pacquiao", "Floyd Mayweather"],
+  "trailers": [{
+      "postdate": "Mon, 05 Nov 2018 00:00:00 -0800",
+      "url": "/trailers/independent/team-khan/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 25 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/team-khan/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Thunder Road",
+  "releasedate": "Fri, 12 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/thunder-road/images/poster.jpg",
+  "poster_2x": "/trailers/independent/thunder-road/images/poster_2x.jpg",
+  "moviesite": "https://www.thunderroadfeature.com",
+  "location": "/trailers/independent/thunder-road/",
+  "rating": "Not yet rated",
+  "genre": ["Comedy", "Drama", "Family"],
+  "directors": "Jim Cummings",
+  "actors": ["Jim Cummings", "Kendal Farr", "Nican Robinson", "Chelsea Edmundson", "Macon Blair", "Jocelyn DeBoer", "Ammie Leonards", "Bill Wise", "Jordan Fox"],
+  "trailers": [{
+      "postdate": "Mon, 22 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/thunder-road/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Transformer",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/transformer/images/poster.jpg",
+  "poster_2x": "/trailers/independent/transformer/images/poster_2x.jpg",
+  "moviesite": "https://www.transformerfilm.com/",
+  "location": "/trailers/independent/transformer/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Michael Del Monte",
+  "actors": ["Janae Marie Kroczaleski"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/transformer/",
+      "type": "Clip - Janae Training",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 12 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/transformer/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Border",
+  "releasedate": "Fri, 26 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/border/images/poster.jpg",
+  "poster_2x": "/trailers/independent/border/images/poster_2x.jpg",
+  "moviesite": "http://www.neonrated.com",
+  "location": "/trailers/independent/border/",
+  "rating": "R",
+  "genre": ["Foreign"],
+  "directors": "Ali Abbasi",
+  "actors": ["Eva Melander", "Eero Milonoff"],
+  "trailers": [{
+      "postdate": "Tue, 23 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/border/",
+      "type": "Clip 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 12 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/border/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 27 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/independent/border/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Girl In The Spider\u0027s Web",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Sony Pictures",
+  "poster": "/trailers/sony_pictures/the-girl-in-the-spiders-web/images/poster.jpg",
+  "poster_2x": "/trailers/sony_pictures/the-girl-in-the-spiders-web/images/poster_2x.jpg",
+  "location": "/trailers/sony_pictures/the-girl-in-the-spiders-web/",
+  "rating": "R",
+  "genre": ["Thriller"],
+  "directors": "Fede Alvarez",
+  "actors": ["Claire Foy", "Sverrir Gudnason", "Lakeith Stanfield", "Sylvia Hoeks", "Stephen Merchant", "Claes Bang", "Christopher Convery", "Synn\u00f8ve Macody Lund", "Vicky Krieps"],
+  "trailers": [{
+      "postdate": "Mon, 17 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/sony_pictures/the-girl-in-the-spiders-web/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 07 Jun 2018 00:00:00 -0700",
+      "url": "/trailers/sony_pictures/the-girl-in-the-spiders-web/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Curse Of La Llorona",
+  "releasedate": "Fri, 19 Apr 2019 00:00:00 -0700",
+  "studio": "Warner Bros. Pictures",
+  "poster": "/trailers/wb/the-curse-of-la-llorona/images/poster.jpg",
+  "poster_2x": "/trailers/wb/the-curse-of-la-llorona/images/poster_2x.jpg",
+  "moviesite": "http://www.thecurseoflallorona.com",
+  "location": "/trailers/wb/the-curse-of-la-llorona/",
+  "rating": "Not yet rated",
+  "genre": ["Horror", "Fantasy", "Thriller"],
+  "directors": "Michael Chaves",
+  "actors": ["Linda Cardellini", "Patricia Velasquez", "Raymond Cruz"],
+  "trailers": [{
+      "postdate": "Thu, 18 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/wb/the-curse-of-la-llorona/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Becoming Astrid",
+  "releasedate": "Fri, 23 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/becoming-astrid/images/poster.jpg",
+  "poster_2x": "/trailers/independent/becoming-astrid/images/poster_2x.jpg",
+  "moviesite": "http://www.musicboxfilms.com/film/becoming-astrid",
+  "location": "/trailers/independent/becoming-astrid/",
+  "rating": "NR",
+  "genre": ["Drama", "Foreign"],
+  "directors": "Pernille Fischer Christensen",
+  "actors": ["Alba August", "Trine Dyrholm", "Maria Bonnevie", "Henrik Rafaelsen", "Magnus Krepper", "Bj\u00f6rn Gustafsson", "Maria Fahl Vikander"],
+  "trailers": [{
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/becoming-astrid/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Escape Room",
+  "releasedate": "Fri, 04 Jan 2019 00:00:00 -0800",
+  "studio": "Sony Pictures",
+  "poster": "/trailers/sony_pictures/escape-room/images/poster.jpg",
+  "poster_2x": "/trailers/sony_pictures/escape-room/images/poster_2x.jpg",
+  "location": "/trailers/sony_pictures/escape-room/",
+  "rating": "Not yet rated",
+  "genre": ["Thriller"],
+  "directors": "Adam Robitel",
+  "actors": ["Taylor Russell", "Logan Miller", "Deborah Ann Woll", "Jay Ellis", "Tyler Labine", "Nik Dodani", "Yorick van Wageningen"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/sony_pictures/escape-room/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "In A Relationship",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/in-a-relationship/images/poster.jpg",
+  "poster_2x": "/trailers/independent/in-a-relationship/images/poster_2x.jpg",
+  "location": "/trailers/independent/in-a-relationship/",
+  "rating": "NR",
+  "genre": ["Comedy", "Drama"],
+  "directors": "Sam Boyd",
+  "actors": ["Emma Roberts", "Michael Angarano", "Dree Hemingway", "Patrick Gibson"],
+  "trailers": [{
+      "postdate": "Fri, 26 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/in-a-relationship/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Searching For Ingmar Bergman",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Oscilloscope Laboratories",
+  "poster": "/trailers/oscilloscope/searching-for-ingmar-bergman/images/poster.jpg",
+  "poster_2x": "/trailers/oscilloscope/searching-for-ingmar-bergman/images/poster_2x.jpg",
+  "moviesite": "http://bergman.oscilloscope.net",
+  "location": "/trailers/oscilloscope/searching-for-ingmar-bergman/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Margarethe von Trotta, Felix Moeller",
+  "actors": ["Ingmar Bergman", "Liv Ullmann", "Olivier Assayas", "Ruben \u00d6stlund", "Mian Hansen-L\u00f8ve"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/oscilloscope/searching-for-ingmar-bergman/",
+      "type": "Clip - Daniel",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 15 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/oscilloscope/searching-for-ingmar-bergman/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "What They Had",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/what-they-had/images/poster.jpg",
+  "poster_2x": "/trailers/independent/what-they-had/images/poster_2x.jpg",
+  "moviesite": "http://www.WhatTheyHadMovie.com",
+  "location": "/trailers/independent/what-they-had/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Elizabeth Chomko",
+  "actors": ["Hilary Swank", "Michael Shannon", "Blythe Danner", "Robert Forster", "Taissa Farmiga", "Josh Lucas"],
+  "trailers": [{
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/independent/what-they-had/",
+      "type": "Clip 4",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 22 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/what-they-had/",
+      "type": "Clip 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 16 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/what-they-had/",
+      "type": "Clip 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 05 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/what-they-had/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 23 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/independent/what-they-had/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Guilty",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Magnolia Pictures",
+  "poster": "/trailers/magnolia/the-guilty/images/poster.jpg",
+  "poster_2x": "/trailers/magnolia/the-guilty/images/poster_2x.jpg",
+  "moviesite": "http://www.theguiltyfilm.com/",
+  "location": "/trailers/magnolia/the-guilty/",
+  "rating": "R",
+  "genre": ["Thriller"],
+  "directors": "Gustav M\u00f6ller",
+  "actors": ["Jakob Cedergren", "Jessica Dinnage", "Omar Shargawi", "Johan Olsen", "Katinka Evers-Jahnsen"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/magnolia/the-guilty/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 13 Aug 2018 00:00:00 -0700",
+      "url": "/trailers/magnolia/the-guilty/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Tyler Perry\u0027s A Madea Family Funeral",
+  "releasedate": "Fri, 01 Mar 2019 00:00:00 -0800",
+  "studio": "Lionsgate",
+  "poster": "/trailers/lions_gate/tyler-perrys-a-madea-family-funeral/images/poster.jpg",
+  "poster_2x": "/trailers/lions_gate/tyler-perrys-a-madea-family-funeral/images/poster_2x.jpg",
+  "moviesite": "https://madea.movie/",
+  "location": "/trailers/lions_gate/tyler-perrys-a-madea-family-funeral/",
+  "rating": "PG-13",
+  "genre": ["Comedy"],
+  "directors": "Tyler Perry",
+  "actors": ["Tyler Perry", "Cassi Davis", "Patrice Lovely"],
+  "trailers": [{
+      "postdate": "Fri, 02 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/tyler-perrys-a-madea-family-funeral/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Head Full Of Honey",
+  "releasedate": "Fri, 30 Nov 2018 00:00:00 -0800",
+  "studio": "Warner Bros. Pictures",
+  "poster": "/trailers/wb/head-full-of-honey/images/poster.jpg",
+  "poster_2x": "/trailers/wb/head-full-of-honey/images/poster_2x.jpg",
+  "location": "/trailers/wb/head-full-of-honey/",
+  "rating": "Not yet rated",
+  "genre": ["Drama"],
+  "directors": "Til Schweiger",
+  "actors": ["Nick Nolte", "Matt Dillon", "Emily Mortimer", "Sophie Lane Nolte", "Jacqueline Bisset", "Eric Roberts"],
+  "trailers": [{
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/wb/head-full-of-honey/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Mid90s",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/mid90s/images/poster.jpg",
+  "poster_2x": "/trailers/independent/mid90s/images/poster_2x.jpg",
+  "moviesite": "https://a24films.com/films/mid90s",
+  "location": "/trailers/independent/mid90s/",
+  "rating": "NR",
+  "genre": ["Drama"],
+  "directors": "Jonah Hill",
+  "actors": ["Sunny Suljic", "Lucas Hedges", "Katherine Waterson"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/mid90s/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Trust Machine: The Story of Blockchain",
+  "releasedate": "Fri, 26 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/trust-machine-the-story-of-blockchain/images/poster.jpg",
+  "poster_2x": "/trailers/independent/trust-machine-the-story-of-blockchain/images/poster_2x.jpg",
+  "moviesite": "https://trustmachinefilm.com/",
+  "location": "/trailers/independent/trust-machine-the-story-of-blockchain/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Alex Winter",
+  "trailers": [{
+      "postdate": "Mon, 22 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/trust-machine-the-story-of-blockchain/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The World Before Your Feet",
+  "releasedate": "Wed, 21 Nov 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-world-before-your-feet/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-world-before-your-feet/images/poster_2x.jpg",
+  "moviesite": "http://TheWorldBeforeYourFeet.com",
+  "location": "/trailers/independent/the-world-before-your-feet/",
+  "rating": "NR",
+  "genre": ["Documentary"],
+  "directors": "Jeremy Workman",
+  "actors": ["Matt Green"],
+  "trailers": [{
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-world-before-your-feet/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Nutcracker And The Four Realms",
+  "releasedate": "Fri, 02 Nov 2018 00:00:00 -0700",
+  "studio": "Walt Disney Pictures",
+  "poster": "/trailers/disney/the-nutcracker-and-the-four-realms/images/poster.jpg",
+  "poster_2x": "/trailers/disney/the-nutcracker-and-the-four-realms/images/poster_2x.jpg",
+  "location": "/trailers/disney/the-nutcracker-and-the-four-realms/",
+  "rating": "PG",
+  "genre": ["Fantasy"],
+  "directors": "Lasse Hallstr\u00f6m",
+  "actors": ["Mackenzie Foy", "Morgan Freeman", "Jayden Fowora-Knight", "Helen Mirren", "Keira Knightley", "Misty Copeland"],
+  "trailers": [{
+      "postdate": "Thu, 06 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/disney/the-nutcracker-and-the-four-realms/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 19 Dec 2017 00:00:00 -0800",
+      "url": "/trailers/disney/the-nutcracker-and-the-four-realms/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Hospitality",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/hospitality/images/poster.jpg",
+  "poster_2x": "/trailers/independent/hospitality/images/poster_2x.jpg",
+  "moviesite": "https://www.kandoofilms.com/movies/hospitality/",
+  "location": "/trailers/independent/hospitality/",
+  "rating": "Not yet rated",
+  "genre": ["Thriller", "Drama"],
+  "directors": "David Guglielmo, Nick Chakwin",
+  "actors": ["Emmanuelle Chriqui", "Sam Trammell", "JR Bourne", "Jim Beaver", "Conner McVicker"],
+  "trailers": [{
+      "postdate": "Tue, 30 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/hospitality/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Other Side Of Heaven 2: Fire Of Faith",
+  "releasedate": "Fri, 07 Jun 2019 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/the-other-side-of-heaven-2-fire-of-faith/images/poster.jpg",
+  "poster_2x": "/trailers/independent/the-other-side-of-heaven-2-fire-of-faith/images/poster_2x.jpg",
+  "moviesite": "http://othersideofheavenmovie.com/",
+  "location": "/trailers/independent/the-other-side-of-heaven-2-fire-of-faith/",
+  "rating": "Not yet rated",
+  "genre": ["Drama"],
+  "directors": "Mitch Davis",
+  "actors": ["Christopher Gorham", "Natalie Medlock", "Alex Tarrant", "Ben Baker", "Nicole Whippy", "Miriama Smith", "Joe Folau"],
+  "trailers": [{
+      "postdate": "Fri, 26 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/the-other-side-of-heaven-2-fire-of-faith/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "The Grinch",
+  "releasedate": "Fri, 09 Nov 2018 00:00:00 -0800",
+  "studio": "Universal Pictures",
+  "poster": "/trailers/universal/the-grinch/images/poster.jpg",
+  "poster_2x": "/trailers/universal/the-grinch/images/poster_2x.jpg",
+  "location": "/trailers/universal/the-grinch/",
+  "rating": "PG",
+  "genre": ["Family", "Comedy"],
+  "directors": "Scott Mosier, Yarrow Cheney",
+  "actors": ["Benedict Cumberbatch"],
+  "trailers": [{
+      "postdate": "Tue, 18 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/universal/the-grinch/",
+      "type": "Trailer 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Tue, 19 Jun 2018 00:00:00 -0700",
+      "url": "/trailers/universal/the-grinch/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 08 Mar 2018 00:00:00 -0800",
+      "url": "/trailers/universal/the-grinch/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Venom",
+  "releasedate": "Fri, 05 Oct 2018 00:00:00 -0700",
+  "studio": "Sony Pictures",
+  "poster": "/trailers/sony_pictures/venom/images/poster.jpg",
+  "poster_2x": "/trailers/sony_pictures/venom/images/poster_2x.jpg",
+  "moviesite": "http://www.venom.movie",
+  "location": "/trailers/sony_pictures/venom/",
+  "rating": "PG-13",
+  "genre": ["Action and Adventure", "Thriller"],
+  "directors": "Ruben Fleischer",
+  "actors": ["Tom Hardy", "Michelle Williams", "Riz Ahmed", "Scott Haze", "Reid Scott"],
+  "trailers": [{
+      "postdate": "Tue, 31 Jul 2018 00:00:00 -0700",
+      "url": "/trailers/sony_pictures/venom/",
+      "type": "Trailer 3",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Mon, 23 Apr 2018 00:00:00 -0700",
+      "url": "/trailers/sony_pictures/venom/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 08 Feb 2018 00:00:00 -0800",
+      "url": "/trailers/sony_pictures/venom/",
+      "type": "Teaser",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Blood Brother",
+  "releasedate": "Fri, 30 Nov 2018 00:00:00 -0800",
+  "studio": "Lionsgate",
+  "poster": "/trailers/lions_gate/blood-brother/images/poster.jpg",
+  "poster_2x": "/trailers/lions_gate/blood-brother/images/poster_2x.jpg",
+  "location": "/trailers/lions_gate/blood-brother/",
+  "rating": "R",
+  "genre": ["Thriller"],
+  "directors": "John Pogue",
+  "actors": ["Tremaine \u0027Trey Songz\u0027 Neverson", "Jack Kesy", "China Anne McClain", "Hassan Johnson", "J.D. Williams", "Tanee McCall", "Fetty Wap", "R-Truth"],
+  "trailers": [{
+      "postdate": "Thu, 18 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/blood-brother/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Clara\u0027s Ghost",
+  "releasedate": "Thu, 06 Dec 2018 00:00:00 -0800",
+  "studio": "Independent",
+  "poster": "/trailers/independent/claras-ghost/images/poster.jpg",
+  "poster_2x": "/trailers/independent/claras-ghost/images/poster_2x.jpg",
+  "location": "/trailers/independent/claras-ghost/",
+  "rating": "NR",
+  "genre": ["Drama", "Comedy", "Thriller"],
+  "directors": "Bridey Elliott",
+  "actors": ["Abby Elliott", "Bridey Elliott", "Chris Elliott", "Isidora Goreshter", "Haley Joel Osment", "Paula Niedert Elliott"],
+  "trailers": [{
+      "postdate": "Wed, 24 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/claras-ghost/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Galveston",
+  "releasedate": "Fri, 19 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/galveston/images/poster.jpg",
+  "poster_2x": "/trailers/independent/galveston/images/poster_2x.jpg",
+  "location": "/trailers/independent/galveston/",
+  "rating": "NR",
+  "genre": ["Thriller", "Drama"],
+  "directors": "Melanie Laurent",
+  "actors": ["Elle Fanning", "Ben Foster", "Beau Bridges", "Lili Reinhart", "Robert Aramayo"],
+  "trailers": [{
+      "postdate": "Thu, 18 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/galveston/",
+      "type": "Clip",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 12 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/galveston/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Bernie The Dolphin",
+  "releasedate": "Fri, 07 Dec 2018 00:00:00 -0800",
+  "studio": "Lionsgate",
+  "poster": "/trailers/lions_gate/bernie-the-dolphin/images/poster.jpg",
+  "poster_2x": "/trailers/lions_gate/bernie-the-dolphin/images/poster_2x.jpg",
+  "location": "/trailers/lions_gate/bernie-the-dolphin/",
+  "rating": "G",
+  "genre": ["Family"],
+  "directors": "Kirk Harris",
+  "actors": ["Lola Sultan", "Patrick Muldoon", "Logan Allen", "Stelio Savante", "Dahlia Legault", "Lily Cardone", "Sam Sorbo", "Owen Harn", "Sean Gloria", "Kevin Sorbo"],
+  "trailers": [{
+      "postdate": "Thu, 01 Nov 2018 00:00:00 -0700",
+      "url": "/trailers/lions_gate/bernie-the-dolphin/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+},
+{
+  "title": "Beautiful Boy",
+  "releasedate": "Fri, 12 Oct 2018 00:00:00 -0700",
+  "studio": "Independent",
+  "poster": "/trailers/independent/beautiful-boy/images/poster.jpg",
+  "poster_2x": "/trailers/independent/beautiful-boy/images/poster_2x.jpg",
+  "moviesite": "https://www.beautifulboy.movie/",
+  "location": "/trailers/independent/beautiful-boy/",
+  "rating": "R",
+  "genre": ["Drama"],
+  "directors": "Felix van Groeningen",
+  "actors": ["Steve Carell", "Timoth\u00e9e Chalamet", "Maura Tierney", "Amy Ryan"],
+  "trailers": [{
+      "postdate": "Fri, 19 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/beautiful-boy/",
+      "type": "Featurette",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 12 Oct 2018 00:00:00 -0700",
+      "url": "/trailers/independent/beautiful-boy/",
+      "type": "Clip - This Is Who I Am",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Thu, 27 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/independent/beautiful-boy/",
+      "type": "Trailer 2",
+      "exclusive": false,
+      "hd": false
+  },
+  {
+      "postdate": "Fri, 21 Sep 2018 00:00:00 -0700",
+      "url": "/trailers/independent/beautiful-boy/",
+      "type": "Trailer",
+      "exclusive": false,
+      "hd": false
+  }]
+}]
